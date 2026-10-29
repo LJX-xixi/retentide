@@ -4,8 +4,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Literata:ital,opsz,wght@0,7..72,500;0,7..72,650;1,7..72,400&display=swap">
 <style>
-/* Layout: one index card on a cool slate desk. A single 600px column; only the active
-   question card is a bordered object (with the red top rule of a ruled index card). */
+/* A single reading column. Card separators follow their headers when text wraps. */
 :root {
   --desk: #eceff3;
   --card: #ffffff;
@@ -15,7 +14,6 @@
   --soft: #e3e8ee;
   --accent: #2c46c8;
   --accent-ink: #ffffff;
-  --rule: #d2493f;
   --ok: #1d8656;
   --ok-soft: #dcf1e6;
   --bad: #c43d33;
@@ -30,7 +28,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --desk: #11151b; --card: #1a2029; --ink: #e5eaf0; --muted: #94a2b2; --line: #2c3541; --soft: #232b36;
-    --accent: #8fa3ff; --accent-ink: #0f1530; --rule: #f0776c; --ok: #4fc58d; --ok-soft: #173426;
+    --accent: #8fa3ff; --accent-ink: #0f1530; --ok: #4fc58d; --ok-soft: #173426;
     --bad: #ff8277; --bad-soft: #3b1c1a; --warn: #e7a74b;
     --l1: #39434f; --l2: #3f5486; --l3: #5672c9; --l4: #7f96f0; --l5: #b9c6ff;
     color-scheme: dark;
@@ -38,7 +36,7 @@
 }
 :root[data-theme="dark"] {
   --desk: #11151b; --card: #1a2029; --ink: #e5eaf0; --muted: #94a2b2; --line: #2c3541; --soft: #232b36;
-  --accent: #8fa3ff; --accent-ink: #0f1530; --rule: #f0776c; --ok: #4fc58d; --ok-soft: #173426;
+  --accent: #8fa3ff; --accent-ink: #0f1530; --ok: #4fc58d; --ok-soft: #173426;
   --bad: #ff8277; --bad-soft: #3b1c1a; --warn: #e7a74b;
   --l1: #39434f; --l2: #3f5486; --l3: #5672c9; --l4: #7f96f0; --l5: #b9c6ff;
   color-scheme: dark;
@@ -90,9 +88,9 @@ h2 { font-family: var(--f-head); font-weight: 650; font-size: 17px; margin: 0; t
   box-shadow: 0 1px 0 rgba(20, 30, 50, .04), 0 8px 24px -16px rgba(20, 30, 60, .25);
   position: relative; overflow: hidden;
 }
-.card.ruled::before { content: ""; position: absolute; left: 0; right: 0; top: 46px; height: 1px; background: var(--rule); opacity: .55; }
-.today { padding: 14px 18px 18px; display: flex; flex-direction: column; gap: 16px; }
-.today-head { display: flex; justify-content: space-between; align-items: baseline; min-height: 24px; gap: 8px; }
+.card.ruled > :is(.today-head, .q-meta) { padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.today, .welcome { padding: 14px 18px 18px; display: flex; flex-direction: column; gap: 16px; }
+.today-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; min-height: 24px; gap: 8px; }
 .today-head b { font-family: var(--f-head); font-weight: 650; font-size: 16px; }
 .counts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; padding-top: 6px; }
 .count .n { font-family: var(--f-head); font-weight: 650; font-size: 34px; line-height: 1.1; font-variant-numeric: tabular-nums; }
@@ -106,6 +104,7 @@ h2 { font-family: var(--f-head); font-weight: 650; font-size: 17px; margin: 0; t
 .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); flex: 1 1 180px; }
 .btn.primary:hover { filter: brightness(1.06); }
 .btn.grow { flex: 1 1 140px; }
+.welcome > .row > .btn, .today > .row > .btn { flex: 1 1 140px; }
 .sec > .btn, .sheet > .btn, .today > .btn { flex: none; }
 .btn:disabled { opacity: .5; cursor: default; }
 .btn.ghost { background: transparent; border-color: transparent; color: var(--muted); }
@@ -160,7 +159,7 @@ h2 { font-family: var(--f-head); font-weight: 650; font-size: 17px; margin: 0; t
 .prog span { display: block; height: 100%; background: var(--accent); transition: width .25s; }
 .x { border: 0; background: var(--soft); width: 34px; height: 34px; border-radius: 50%; font-size: 18px; line-height: 1; color: var(--muted); }
 .q { padding: 14px 20px 22px; display: flex; flex-direction: column; gap: 14px; min-height: 220px; }
-.q-meta { display: flex; justify-content: space-between; align-items: center; min-height: 24px; gap: 8px; font-size: 12.5px; color: var(--muted); }
+.q-meta { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; min-height: 24px; gap: 8px; font-size: 12.5px; color: var(--muted); }
 .tag { font-size: 11.5px; padding: 1px 7px; border-radius: 4px; background: var(--soft); color: var(--muted); white-space: nowrap; }
 .tag.trap { background: color-mix(in srgb, var(--rule) 16%, transparent); color: var(--rule); }
 .tag.conf { background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent); }

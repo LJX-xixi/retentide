@@ -1733,7 +1733,7 @@ function renderHome() {
   ${welcome ? `<div class="card ruled welcome" id="welcome">
     <div class="today-head"><b>${L('欢迎', 'Welcome')}</b></div>
     <ul class="small" style="margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px">
-      <li>${L('先学一个词，系统会出题检验；之后什么时候复习由 FSRS 安排，<b>不用自己评“认识/模糊”</b>，对错和用时自动决定。', 'Learn a word and the app quizzes you on it; FSRS then schedules the reviews. <b>You never rate yourself</b>: whether you got it right, and how fast, decides.')}</li>
+      <li>${L('用 AI 讲解理解词义，在语境中练习，再按 FSRS 的安排持续学习和复习。', 'Learn words with AI explanations and contextual practice, then build a steady review rhythm with FSRS.')}</li>
       <li>${L(`不需要账号，进度存在这台设备的浏览器里。当前词表有 ${S.words.length} 个词，也可以在设置里导入其他词表。`, `No account needed: progress lives in this browser. Your current list has ${S.words.length} words; you can import another list in Settings.`)}</li>
       <li>${L('AI 讲解、Merriam-Webster 查词、多设备同步都是可选的，在设置里填自己的 key 就能打开。', 'AI explanations, Merriam-Webster lookups and multi-device sync are optional; add your own keys in Settings to turn them on.')}</li>
     </ul>
