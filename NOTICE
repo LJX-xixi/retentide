@@ -1,0 +1,30 @@
+Retentide — provenance of everything in this repository and what it loads at runtime.
+
+Code (MIT, see LICENSE)
+  app.js, chat.js, practice.js, index.html, i18n/, runtime/, scripts/, supabase/
+    Written for this project. No third-party source code is copied into the repository.
+
+Algorithms and parameters
+  FSRS-5 (Free Spaced Repetition Scheduler), by the open-spaced-repetition project (Jarrett Ye et al.),
+  https://github.com/open-spaced-repetition . The formulas and the published default parameters are
+  implemented independently in app.js (fsrsReview); no FSRS library code is included.
+
+Data
+  data/sample-deck.json — written for this project; CC BY 4.0 (data/LICENSE).
+  scripts/fixtures/mw-collegiate-sample.json — a hand-written test entry in the Merriam-Webster API
+    format; not an actual API response.
+  No commercial word book, question bank, or Merriam-Webster content is distributed.
+
+Loaded at runtime from third parties (not redistributed)
+  Fonts: Literata, IBM Plex Sans, IBM Plex Mono via Google Fonts — SIL Open Font License 1.1.
+  supabase-js 2.45.4 via cdn.jsdelivr.net — MIT License (only when the user configures Supabase).
+  Merriam-Webster Collegiate Dictionary and Thesaurus APIs — called with each user's own keys, under
+    Merriam-Webster's terms (https://dictionaryapi.com/info/terms-of-service). Not covered by this
+    project's licenses. This project is not affiliated with or endorsed by Merriam-Webster.
+    The Merriam-Webster logo shown next to its content is loaded from dictionaryapi.com at runtime, as their
+    brand guidelines require, and is not redistributed here.
+  AI providers — whichever OpenAI-compatible endpoint the user configures, under that provider's terms.
+
+Optional tooling
+  scripts/enrich_list.py uses the `wordfreq` package if the user installs it. wordfreq's data is licensed
+  CC BY-SA 4.0; frequency values it adds to a user's own list carry that license. None are included here.

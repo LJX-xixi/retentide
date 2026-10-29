@@ -1,0 +1,14 @@
+{
+  "name": "retentide",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-powered vocabulary learning with contextual practice and FSRS-powered review. Open source, built for everyday learning.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node scripts/test_fsrs.js && node scripts/test_engine.mjs",
+    "start": "python3 -m http.server 8080"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

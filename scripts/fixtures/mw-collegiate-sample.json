@@ -1,0 +1,8 @@
+[
+  {"meta":{"id":"placate","uuid":"00000000-0000-0000-0000-000000000001","stems":["placate","placated","placates","placating"],"offensive":false},
+   "hwi":{"hw":"pla*cate","prs":[{"mw":"ˈplā-ˌkāt","sound":{"audio":"placat01"}}]},
+   "fl":"verb",
+   "def":[{"sseq":[[["sense",{"sn":"1","dt":[["text","{bc}to calm someone who is upset, often by giving in a little"],["vis",[{"t":"tried to {wi}placate{/wi} the angry crowd"}]]]}]]]}],
+   "uros":[{"ure":"pla*ca*tion","fl":"noun"}],
+   "shortdef":["to calm someone who is upset, often by giving in a little"]}
+]
