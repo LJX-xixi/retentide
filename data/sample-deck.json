@@ -1,0 +1,5041 @@
+{
+ "version": 1,
+ "name": "Sample deck: advanced English vocabulary",
+ "license": "CC BY 4.0",
+ "words": [
+  {
+   "id": "abate",
+   "w": "abate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.i.",
+     "zh": "减弱，平息",
+     "en": "to become less intense, strong or widespread",
+     "ex": [
+      {
+       "en": "Only after the storm abated did the rescue crews dare to approach the stranded ferry.",
+       "zh": "直到风暴减弱，救援人员才敢靠近那艘搁浅的渡轮。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "subside",
+    "wane",
+    "ebb",
+    "recede"
+   ],
+   "ant": [
+    "intensify",
+    "escalate"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "aberrant",
+   "w": "aberrant",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "异常的，偏离常规的",
+     "en": "departing from what is normal, expected or accepted",
+     "ex": [
+      {
+       "en": "The committee dismissed the aberrant result as a measurement error rather than evidence against the theory.",
+       "zh": "委员会把这个异常结果当作测量误差，而不是反驳该理论的证据。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "anomalous",
+    "deviant",
+    "atypical",
+    "abnormal"
+   ],
+   "ant": [
+    "normal",
+    "typical"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "abstruse",
+   "w": "abstruse",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "深奥的，难懂的",
+     "en": "hard to understand because it is complex or highly specialized",
+     "ex": [
+      {
+       "en": "The lecture grew so abstruse that even the physics majors stopped taking notes and simply stared at the board.",
+       "zh": "讲座变得极其深奥，连物理专业的学生也不再记笔记，只是盯着黑板。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "recondite",
+    "arcane",
+    "esoteric",
+    "obscure"
+   ],
+   "ant": [
+    "lucid",
+    "plain"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "acumen",
+   "w": "acumen",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "敏锐，精明",
+     "en": "sharp judgment, especially in practical or business matters",
+     "ex": [
+      {
+       "en": "Her financial acumen turned a failing bakery into the most profitable shop on the street within two years.",
+       "zh": "她敏锐的财务头脑在两年内把一家濒临倒闭的面包店变成了街上利润最高的店铺。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "shrewdness",
+    "astuteness",
+    "insight",
+    "sagacity"
+   ],
+   "ant": [
+    "obtuseness"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "adulation",
+   "w": "adulation",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "谄媚，过度吹捧",
+     "en": "excessive praise or flattery, often to win favor",
+     "ex": [
+      {
+       "en": "The young novelist, unused to such adulation, began to doubt whether her admirers had actually read the book.",
+       "zh": "这位年轻小说家不习惯这样的吹捧，开始怀疑崇拜者是否真的读过这本书。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "flattery",
+    "fawning",
+    "idolatry",
+    "sycophancy"
+   ],
+   "ant": [
+    "disparagement",
+    "censure"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "aesthetic",
+   "w": "aesthetic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "审美的，美学的",
+     "en": "concerned with beauty or the appreciation of beauty",
+     "ex": [
+      {
+       "en": "The council rejected the bridge design on aesthetic grounds, though engineers found nothing wrong with its structure.",
+       "zh": "市议会以审美为由否决了这座桥的设计，尽管工程师认为其结构毫无问题。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "artistic",
+    "tasteful",
+    "visual",
+    "pleasing"
+   ],
+   "ant": [
+    "utilitarian"
+   ],
+   "conf": [
+    "ascetic"
+   ],
+   "df": 0.3,
+   "scr": true
+  },
+  {
+   "id": "alacrity",
+   "w": "alacrity",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "敏捷，欣然迅速",
+     "en": "cheerful readiness and speed in responding",
+     "ex": [
+      {
+       "en": "When offered the chance to lead the expedition, he accepted with an alacrity that surprised his cautious colleagues.",
+       "zh": "当有机会带队远征时，他欣然迅速地接受了，这让谨慎的同事们大感意外。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "eagerness",
+    "promptness",
+    "readiness",
+    "zeal"
+   ],
+   "ant": [
+    "reluctance",
+    "sluggishness"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "allusion",
+   "w": "allusion",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "暗示，典故，间接提及",
+     "en": "an indirect or passing reference to something",
+     "ex": [
+      {
+       "en": "The poem's brief allusion to Orpheus rewards readers who know the myth and passes unnoticed by the rest.",
+       "zh": "这首诗对奥菲斯的简短暗指会让了解神话的读者有所收获，其他人则不会注意到。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "reference",
+    "hint",
+    "mention",
+    "intimation"
+   ],
+   "ant": [],
+   "conf": [
+    "illusion"
+   ],
+   "df": 0.35
+  },
+  {
+   "id": "ambivalent",
+   "w": "ambivalent",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "矛盾的，既爱又恨的",
+     "en": "having mixed or conflicting feelings about something",
+     "ex": [
+      {
+       "en": "She felt ambivalent about the promotion, since it offered prestige but would end her work in the laboratory.",
+       "zh": "她对晋升心情矛盾，因为它带来声望，却会终结她在实验室的工作。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "conflicted",
+    "torn",
+    "undecided",
+    "equivocal"
+   ],
+   "ant": [
+    "decided",
+    "certain"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "anomaly",
+   "w": "anomaly",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "异常现象，反常",
+     "en": "something that departs from the usual pattern or rule",
+     "ex": [
+      {
+       "en": "The single warm winter in a decade of record cold looked like a statistical anomaly, not the start of a trend.",
+       "zh": "在十年创纪录的严寒中出现的那个暖冬，看上去只是统计上的异常，而非趋势的开端。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "aberration",
+    "irregularity",
+    "oddity",
+    "deviation"
+   ],
+   "ant": [
+    "norm",
+    "regularity"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "apathy",
+   "w": "apathy",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "冷漠，无动于衷",
+     "en": "a lack of interest, concern or emotion",
+     "ex": [
+      {
+       "en": "Voter apathy, rather than organized opposition, doomed the referendum, as barely a fifth of eligible citizens turned out.",
+       "zh": "是选民的冷漠而非有组织的反对葬送了这次公投，因为只有约五分之一的合格选民前来投票。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "indifference",
+    "listlessness",
+    "unconcern",
+    "torpor"
+   ],
+   "ant": [
+    "zeal",
+    "enthusiasm"
+   ],
+   "df": 0.3,
+   "scr": true
+  },
+  {
+   "id": "ascetic",
+   "w": "ascetic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "苦行的，禁欲的",
+     "en": "practicing strict self-denial, especially for spiritual reasons",
+     "ex": [
+      {
+       "en": "He adopted an ascetic routine, eating one plain meal a day and sleeping on the floor of his study.",
+       "zh": "他采取了苦行式的作息，每天只吃一顿简单的饭，睡在书房的地板上。"
+      }
+     ]
+    },
+    {
+     "pos": "n.",
+     "zh": "苦行者，禁欲者",
+     "en": "a person who lives a life of strict self-denial",
+     "ex": [
+      {
+       "en": "The ascetic gave away every possession he owned and spent his remaining years in a cave above the river.",
+       "zh": "这位苦行者散尽所有财物，在河上方的一个山洞里度过了余生。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "austere",
+    "abstemious",
+    "spartan",
+    "abstinent"
+   ],
+   "ant": [
+    "hedonistic",
+    "indulgent"
+   ],
+   "conf": [
+    "aesthetic"
+   ],
+   "df": 0.55
+  },
+  {
+   "id": "assuage",
+   "w": "assuage",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "减轻，缓和",
+     "en": "to make pain, anger or worry less severe",
+     "ex": [
+      {
+       "en": "The mayor's promise of new funding did little to assuage residents' anger over the closure of the clinic.",
+       "zh": "市长关于新增经费的承诺并未平息居民对诊所关闭的愤怒。"
+      }
+     ]
+    },
+    {
+     "pos": "v.t.",
+     "zh": "满足（饥渴等欲望）",
+     "en": "to satisfy a hunger, thirst or desire",
+     "ex": [
+      {
+       "en": "A bowl of plain rice was enough to assuage the hunger of the exhausted travelers after their long march.",
+       "zh": "一碗白米饭就足以让疲惫的旅人在长途跋涉后解了饥。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "alleviate",
+    "mollify",
+    "soothe",
+    "allay"
+   ],
+   "ant": [
+    "aggravate",
+    "exacerbate"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "audacious",
+   "w": "audacious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "大胆的，无畏的",
+     "en": "willing to take bold risks and defy convention",
+     "ex": [
+      {
+       "en": "The architect's audacious design, a tower balanced on a single column, alarmed the city's more conservative planners.",
+       "zh": "建筑师那个大胆的设计，一座立在单根柱子上的塔楼，让市里较为保守的规划者感到不安。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "bold",
+    "daring",
+    "brazen",
+    "intrepid"
+   ],
+   "ant": [
+    "timid",
+    "cautious"
+   ],
+   "df": 0.35
+  },
+  {
+   "id": "austere",
+   "w": "austere",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "朴素的；严峻的",
+     "en": "plain and severe, without comfort or decoration",
+     "ex": [
+      {
+       "en": "The monks lived an austere life, sleeping on bare boards and eating only what their garden provided.",
+       "zh": "僧侣们过着朴素清苦的生活，睡在光板上，只吃园子里的出产。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "spartan",
+    "stern",
+    "stark",
+    "severe"
+   ],
+   "ant": [
+    "lavish",
+    "opulent"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "banal",
+   "w": "banal",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "平庸的，陈腐无趣的",
+     "en": "so ordinary and predictable that it holds no interest",
+     "ex": [
+      {
+       "en": "Critics found the novel's dialogue banal, a string of everyday remarks that revealed nothing about the characters.",
+       "zh": "评论家觉得这部小说的对白平庸，只是一串日常寒暄，对人物毫无揭示。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "trite",
+    "commonplace",
+    "humdrum",
+    "platitudinous"
+   ],
+   "ant": [
+    "original",
+    "fresh"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "belie",
+   "w": "belie",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "掩饰；使显得虚假",
+     "en": "to give a false impression of the truth",
+     "ex": [
+      {
+       "en": "His calm voice belied the panic he felt as the examiner turned over the final page of the test.",
+       "zh": "当考官翻到试卷最后一页时，他平静的声音掩盖了内心的恐慌。"
+      }
+     ]
+    },
+    {
+     "pos": "v.t.",
+     "zh": "与…相矛盾，证明…为假",
+     "en": "to contradict or show to be untrue",
+     "ex": [
+      {
+       "en": "The cheerful annual report is belied by the mountain of unpaid invoices stacked in the accounting office.",
+       "zh": "堆在会计室里的一大堆未付发票，与那份乐观的年报形成了鲜明的矛盾。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "contradict",
+    "misrepresent",
+    "disguise",
+    "negate"
+   ],
+   "ant": [
+    "confirm",
+    "corroborate"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "bolster",
+   "w": "bolster",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "支持，加强",
+     "en": "to support or strengthen something that is weak or lacking",
+     "ex": [
+      {
+       "en": "New archaeological finds bolstered the claim that the settlement had traded with distant cultures long before the conquest.",
+       "zh": "新的考古发现支持了这一说法：该聚落在被征服之前很久就与遥远的文明有贸易往来。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "buttress",
+    "reinforce",
+    "shore",
+    "augment"
+   ],
+   "ant": [
+    "undermine",
+    "weaken"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "bombastic",
+   "w": "bombastic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "夸夸其谈的，言过其实的",
+     "en": "pompous and inflated in speech, saying little with great show",
+     "ex": [
+      {
+       "en": "The senator's bombastic speech promised everything yet offered not a single concrete proposal for reform.",
+       "zh": "这位参议员夸夸其谈的演讲什么都许诺，却没有提出一条具体的改革建议。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "pompous",
+    "grandiloquent",
+    "turgid",
+    "inflated"
+   ],
+   "ant": [
+    "restrained",
+    "plain"
+   ],
+   "df": 0.55
+  },
+  {
+   "id": "burgeon",
+   "w": "burgeon",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.i.",
+     "zh": "迅速发展，萌发",
+     "en": "to grow or increase rapidly",
+     "ex": [
+      {
+       "en": "As remote work burgeoned, small towns with fast internet suddenly attracted professionals who once insisted on city life.",
+       "zh": "随着远程办公迅速兴起，网速快的小城镇突然吸引了曾坚持住在城里的专业人士。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "flourish",
+    "proliferate",
+    "mushroom",
+    "thrive"
+   ],
+   "ant": [
+    "wither",
+    "dwindle"
+   ],
+   "df": 0.55
+  },
+  {
+   "id": "cacophony",
+   "w": "cacophony",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "刺耳的杂音",
+     "en": "a harsh mixture of loud, clashing sounds",
+     "ex": [
+      {
+       "en": "A cacophony of horns and shouting vendors greeted the travelers as they stepped off the train.",
+       "zh": "旅客们一下火车，迎接他们的就是一片嘈杂的汽笛声和小贩的叫卖声。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "discord",
+    "din",
+    "clamor",
+    "racket"
+   ],
+   "ant": [
+    "harmony",
+    "euphony"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "candor",
+   "w": "candor",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "坦率，直言不讳",
+     "en": "honesty in speech, even when it is uncomfortable",
+     "ex": [
+      {
+       "en": "The director's candor about the project's failures earned her more trust than any polished press release could have.",
+       "zh": "这位主管对项目失败毫不讳言，赢得的信任超过任何精心润色的新闻稿。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "frankness",
+    "openness",
+    "forthrightness",
+    "honesty"
+   ],
+   "ant": [
+    "duplicity",
+    "evasiveness"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "capricious",
+   "w": "capricious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "反复无常的，任性的",
+     "en": "changing mood or behavior suddenly and without clear reason",
+     "ex": [
+      {
+       "en": "The capricious ruler would reward a courtier one morning and banish him by evening for no stated reason.",
+       "zh": "这位反复无常的君主可能早上还在奖赏一名朝臣，傍晚就无缘无故将他流放。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "fickle",
+    "mercurial",
+    "whimsical",
+    "erratic"
+   ],
+   "ant": [
+    "steady",
+    "constant"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "censure",
+   "w": "censure",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "严厉谴责",
+     "en": "to criticize someone formally and severely",
+     "ex": [
+      {
+       "en": "Parliament voted to censure the minister for misleading the public, though it stopped short of demanding his resignation.",
+       "zh": "议会投票谴责这位部长误导公众，但没有进一步要求他辞职。"
+      }
+     ]
+    },
+    {
+     "pos": "n.",
+     "zh": "谴责，责难",
+     "en": "strong and formal expression of disapproval",
+     "ex": [
+      {
+       "en": "The judge's public censure of the prosecutor's tactics was rare and carried considerable weight in the profession.",
+       "zh": "法官公开谴责检察官的做法实属罕见，在业内分量不轻。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "rebuke",
+    "reprimand",
+    "condemn",
+    "reproach"
+   ],
+   "ant": [
+    "praise",
+    "commend"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "circumspect",
+   "w": "circumspect",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "谨慎的，考虑周密的",
+     "en": "careful to weigh the possible consequences before acting",
+     "ex": [
+      {
+       "en": "Burned by earlier scandals, the board was circumspect, weighing each public statement before releasing it.",
+       "zh": "因先前的丑闻吃过亏，董事会变得格外谨慎，每份公开声明发布前都反复斟酌。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "cautious",
+    "prudent",
+    "wary",
+    "guarded"
+   ],
+   "ant": [
+    "reckless",
+    "rash"
+   ],
+   "df": 0.55
+  },
+  {
+   "id": "cogent",
+   "w": "cogent",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "有说服力的，令人信服的",
+     "en": "clear, logical and convincing",
+     "ex": [
+      {
+       "en": "Her cogent argument, built on three independent data sets, left the skeptics with little ground to stand on.",
+       "zh": "她的论证基于三组独立数据，令人信服，让怀疑者几乎无立足之地。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "convincing",
+    "compelling",
+    "persuasive",
+    "forceful"
+   ],
+   "ant": [
+    "feeble",
+    "unpersuasive"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "conciliatory",
+   "w": "conciliatory",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "安抚的，调和的",
+     "en": "intended to calm anger or win goodwill",
+     "ex": [
+      {
+       "en": "After weeks of bitter dispute, the union leader struck a conciliatory tone and invited management back to the table.",
+       "zh": "经过数周激烈争执，工会领袖语气转为缓和，邀请管理层重回谈判桌。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "appeasing",
+    "placating",
+    "pacifying",
+    "mollifying"
+   ],
+   "ant": [
+    "antagonistic",
+    "belligerent"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "corroborate",
+   "w": "corroborate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "证实，确证",
+     "en": "to support a claim or statement with additional evidence",
+     "ex": [
+      {
+       "en": "Two independent eyewitnesses corroborated the defendant's account, and the prosecution's timeline began to collapse.",
+       "zh": "两名独立目击者证实了被告的说法，控方的时间线开始崩塌。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "confirm",
+    "substantiate",
+    "verify",
+    "validate"
+   ],
+   "ant": [
+    "contradict",
+    "refute"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "credible",
+   "w": "credible",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "可信的，可靠的",
+     "en": "able to be believed or trusted",
+     "ex": [
+      {
+       "en": "The witness seemed credible because her account stayed consistent under hours of hostile questioning.",
+       "zh": "这位证人看起来可信，因为她的陈述在数小时充满敌意的盘问下始终前后一致。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "believable",
+    "plausible",
+    "convincing",
+    "reliable"
+   ],
+   "ant": [
+    "dubious",
+    "implausible"
+   ],
+   "conf": [
+    "credulous"
+   ],
+   "df": 0.25,
+   "scr": true
+  },
+  {
+   "id": "credulous",
+   "w": "credulous",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "轻信的，易上当的",
+     "en": "too ready to believe things on weak evidence",
+     "ex": [
+      {
+       "en": "Credulous investors, dazzled by promises of guaranteed returns, handed their savings to a stranger with no credentials.",
+       "zh": "轻信的投资者被保证回报的承诺迷了眼，把积蓄交给了一个毫无资质的陌生人。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "gullible",
+    "naive",
+    "trusting",
+    "unsuspecting"
+   ],
+   "ant": [
+    "skeptical",
+    "incredulous"
+   ],
+   "conf": [
+    "credible"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "culpable",
+   "w": "culpable",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "该受责备的，有过失的",
+     "en": "deserving blame for a wrongdoing or failure",
+     "ex": [
+      {
+       "en": "Although he never touched the equipment, the supervisor was held culpable for ignoring repeated warnings about its condition.",
+       "zh": "尽管他从未碰过那台设备，主管仍因无视对其状况的多次警告而被认定应负责任。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "blameworthy",
+    "guilty",
+    "liable",
+    "responsible"
+   ],
+   "ant": [
+    "innocent",
+    "blameless"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "deference",
+   "w": "deference",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "尊重，顺从",
+     "en": "respectful yielding to another person's wishes or judgment",
+     "ex": [
+      {
+       "en": "Out of deference to the elder scholar, the younger panelists withheld their objections until the session had ended.",
+       "zh": "出于对年长学者的敬重，年轻的小组成员把异议留到会议结束之后才提。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "respect",
+    "submission",
+    "homage",
+    "regard"
+   ],
+   "ant": [
+    "disrespect",
+    "contempt"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "denigrate",
+   "w": "denigrate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "诋毁，贬低",
+     "en": "to attack or belittle someone's reputation or worth",
+     "ex": [
+      {
+       "en": "Rather than answer the criticism, the company chose to denigrate the researchers who had published the findings.",
+       "zh": "该公司没有回应批评，而是选择诋毁发表研究结果的研究人员。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "belittle",
+    "defame",
+    "disparage",
+    "malign"
+   ],
+   "ant": [
+    "praise",
+    "extol"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "desultory",
+   "w": "desultory",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "散漫的，无条理的",
+     "en": "lacking a plan or purpose and moving randomly from one thing to another",
+     "ex": [
+      {
+       "en": "The seminar degenerated into desultory chatter, drifting from topic to topic without ever reaching a conclusion.",
+       "zh": "研讨会沦为散漫的闲聊，从一个话题飘到另一个话题，始终没有得出结论。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "aimless",
+    "haphazard",
+    "random",
+    "erratic"
+   ],
+   "ant": [
+    "methodical",
+    "purposeful"
+   ],
+   "df": 0.65
+  },
+  {
+   "id": "diffident",
+   "w": "diffident",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "缺乏自信的，羞怯的",
+     "en": "lacking confidence and hesitant to speak or assert oneself",
+     "ex": [
+      {
+       "en": "A diffident speaker by nature, she rehearsed every sentence aloud before daring to address the assembled faculty.",
+       "zh": "她天生不自信，在敢于对全体教师发言之前，把每句话都大声排练了一遍。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "timid",
+    "bashful",
+    "reserved",
+    "unassertive"
+   ],
+   "ant": [
+    "confident",
+    "assertive"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "discount",
+   "w": "discount",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "低估，不予重视",
+     "en": "to treat something as unreliable or unimportant and disregard it",
+     "ex": [
+      {
+       "en": "Analysts tend to discount the claims of any firm that stands to profit from a favorable verdict.",
+       "zh": "分析师往往不重视任何有望从有利裁决中获利的公司的说法。"
+      }
+     ]
+    },
+    {
+     "pos": "v.t.",
+     "zh": "打折，降价",
+     "en": "to reduce the price of something",
+     "ex": [
+      {
+       "en": "The retailer decided to discount last season's stock by half in order to clear its warehouses before winter.",
+       "zh": "零售商决定把上一季的存货打五折，以便在冬季来临前清空仓库。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "disregard",
+    "dismiss",
+    "ignore",
+    "downplay"
+   ],
+   "ant": [
+    "heed"
+   ],
+   "df": 0.35,
+   "scr": true
+  },
+  {
+   "id": "discreet",
+   "w": "discreet",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "谨慎的，不张扬的",
+     "en": "careful to avoid attention or causing embarrassment",
+     "ex": [
+      {
+       "en": "The diplomat made discreet inquiries so that no rumor of the negotiations could reach the press.",
+       "zh": "这位外交官进行了谨慎的探询，以免谈判的任何传闻传到媒体耳中。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "prudent",
+    "tactful",
+    "circumspect",
+    "careful"
+   ],
+   "ant": [
+    "indiscreet",
+    "tactless"
+   ],
+   "conf": [
+    "discrete"
+   ],
+   "df": 0.45
+  },
+  {
+   "id": "discrete",
+   "w": "discrete",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "分离的，不连续的",
+     "en": "separate and distinct from other things",
+     "ex": [
+      {
+       "en": "The study treats memory not as one faculty but as several discrete systems, each with its own neural basis.",
+       "zh": "该研究不把记忆看作单一能力，而是看作几个各有神经基础的独立系统。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "separate",
+    "distinct",
+    "detached",
+    "individual"
+   ],
+   "ant": [
+    "continuous",
+    "connected"
+   ],
+   "conf": [
+    "discreet"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "disparage",
+   "w": "disparage",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "贬低，轻视",
+     "en": "to speak of something as having little value or importance",
+     "ex": [
+      {
+       "en": "Critics who once disparaged the film as shallow now study it as a landmark of the genre.",
+       "zh": "曾把这部电影贬为肤浅的评论家，如今却把它当作该类型的里程碑来研究。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "belittle",
+    "denigrate",
+    "deprecate",
+    "decry"
+   ],
+   "ant": [
+    "laud",
+    "extol"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "dogmatic",
+   "w": "dogmatic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "教条的，武断的",
+     "en": "asserting opinions as unquestionable truth",
+     "ex": [
+      {
+       "en": "A dogmatic teacher, he treated his own method as settled truth and punished students who questioned it.",
+       "zh": "他是个教条的老师，把自己的方法当作定论，对提出质疑的学生加以惩罚。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "doctrinaire",
+    "opinionated",
+    "rigid",
+    "dictatorial"
+   ],
+   "ant": [
+    "open-minded",
+    "flexible"
+   ],
+   "df": 0.45
+  },
+  {
+   "id": "eclectic",
+   "w": "eclectic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "兼收并蓄的，折中的",
+     "en": "drawing on a wide variety of sources, styles or ideas",
+     "ex": [
+      {
+       "en": "His eclectic reading list ranged from medieval poetry to manuals on beekeeping and early computer design.",
+       "zh": "他兼收并蓄的书单，从中世纪诗歌一直到养蜂手册和早期计算机设计。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "diverse",
+    "varied",
+    "catholic",
+    "assorted"
+   ],
+   "ant": [
+    "narrow",
+    "uniform"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "elicit",
+   "w": "elicit",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "引出，诱发",
+     "en": "to draw out a response, reaction or piece of information",
+     "ex": [
+      {
+       "en": "The teacher's patient questions elicited from the shy student an insight that the rest of the class had missed.",
+       "zh": "老师耐心的提问从那个害羞的学生口中引出了班上其他人都没注意到的见解。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "evoke",
+    "extract",
+    "provoke",
+    "draw"
+   ],
+   "ant": [
+    "suppress",
+    "stifle"
+   ],
+   "conf": [
+    "illicit"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "eminent",
+   "w": "eminent",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "杰出的，著名的",
+     "en": "distinguished and highly respected in a field",
+     "ex": [
+      {
+       "en": "An eminent historian of the period, she was invited to advise the museum on its new galleries.",
+       "zh": "作为该时期的著名历史学家，她受邀就博物馆的新展厅提供建议。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "distinguished",
+    "renowned",
+    "prominent",
+    "illustrious"
+   ],
+   "ant": [
+    "obscure",
+    "unknown"
+   ],
+   "conf": [
+    "imminent"
+   ],
+   "df": 0.3,
+   "scr": true
+  },
+  {
+   "id": "enervate",
+   "w": "enervate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "使衰弱，使无力",
+     "en": "to drain someone of energy or strength",
+     "ex": [
+      {
+       "en": "The humid afternoon heat enervated the hikers, who sat silently in the shade long after their planned departure.",
+       "zh": "潮湿的午后高温使徒步者疲软无力，他们在预定出发时间过后很久仍默默坐在树荫下。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "exhaust",
+    "debilitate",
+    "sap",
+    "weaken"
+   ],
+   "ant": [
+    "invigorate",
+    "energize"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "ephemeral",
+   "w": "ephemeral",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "短暂的，转瞬即逝的",
+     "en": "lasting only a very short time",
+     "ex": [
+      {
+       "en": "Fame on the internet is ephemeral; yesterday's viral sensation is today's forgotten curiosity.",
+       "zh": "网络上的名气转瞬即逝，昨天走红的轰动事件到今天就成了被遗忘的奇闻。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "fleeting",
+    "transient",
+    "momentary",
+    "evanescent"
+   ],
+   "ant": [
+    "enduring",
+    "permanent"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "equivocal",
+   "w": "equivocal",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "模棱两可的，含糊的",
+     "en": "open to more than one interpretation, often on purpose",
+     "ex": [
+      {
+       "en": "The spokesman gave an equivocal answer, leaving reporters unsure whether the merger was proceeding or had been quietly abandoned.",
+       "zh": "发言人的回答模棱两可，记者们搞不清并购是在推进还是已被悄悄放弃。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "ambiguous",
+    "vague",
+    "evasive",
+    "noncommittal"
+   ],
+   "ant": [
+    "explicit",
+    "unequivocal"
+   ],
+   "df": 0.55
+  },
+  {
+   "id": "erudite",
+   "w": "erudite",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "博学的，学识渊博的",
+     "en": "having or showing deep and extensive learning",
+     "ex": [
+      {
+       "en": "The erudite curator could date a manuscript by its ink and tell the story of every scribe who handled it.",
+       "zh": "这位博学的策展人能凭墨迹判定手稿的年代，并讲出经手的每位抄写员的故事。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "learned",
+    "scholarly",
+    "knowledgeable",
+    "lettered"
+   ],
+   "ant": [
+    "ignorant",
+    "unlettered"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "exacerbate",
+   "w": "exacerbate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "使恶化，加剧",
+     "en": "to make a bad situation or problem worse",
+     "ex": [
+      {
+       "en": "Cutting the clinic's budget will only exacerbate the shortage of doctors that already strains the rural region.",
+       "zh": "削减诊所预算只会加剧这个农村地区本已紧张的医生短缺。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "aggravate",
+    "worsen",
+    "intensify",
+    "inflame"
+   ],
+   "ant": [
+    "alleviate",
+    "assuage"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "extol",
+   "w": "extol",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "高度赞扬，颂扬",
+     "en": "to praise something enthusiastically",
+     "ex": [
+      {
+       "en": "Reviewers extolled the debut for its restraint, though a few found its quiet pacing hard to endure.",
+       "zh": "评论家们称赞这部处女作的克制，不过也有少数人觉得它平缓的节奏难以忍受。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "laud",
+    "praise",
+    "acclaim",
+    "exalt"
+   ],
+   "ant": [
+    "denigrate",
+    "disparage"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "fastidious",
+   "w": "fastidious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "挑剔的；一丝不苟的",
+     "en": "extremely attentive to detail and hard to please",
+     "ex": [
+      {
+       "en": "A fastidious editor, he returned the manuscript with every inconsistency in spelling and punctuation circled in red.",
+       "zh": "他是个一丝不苟的编辑，退稿时把拼写和标点的每处不一致都用红笔圈了出来。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "meticulous",
+    "finicky",
+    "punctilious",
+    "exacting"
+   ],
+   "ant": [
+    "careless",
+    "slovenly"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "fickle",
+   "w": "fickle",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "易变的，反复无常的",
+     "en": "likely to change one's loyalties or interests without warning",
+     "ex": [
+      {
+       "en": "The fickle audience that cheered the band last spring now barely recognized its newest songs.",
+       "zh": "去年春天为乐队欢呼的善变观众，如今几乎认不出它的新歌。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "capricious",
+    "changeable",
+    "inconstant",
+    "flighty"
+   ],
+   "ant": [
+    "steadfast",
+    "constant"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "flaunt",
+   "w": "flaunt",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "炫耀，招摇",
+     "en": "to display something in a showy way to attract admiration",
+     "ex": [
+      {
+       "en": "Rather than hiding his sudden wealth, the heir flaunted it with parties no one else in town could afford.",
+       "zh": "这位继承人没有隐藏自己的暴富，反而用镇上无人负担得起的派对来炫耀。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "parade",
+    "display",
+    "exhibit",
+    "brandish"
+   ],
+   "ant": [
+    "conceal",
+    "hide"
+   ],
+   "conf": [
+    "flout"
+   ],
+   "df": 0.45
+  },
+  {
+   "id": "flout",
+   "w": "flout",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "公然藐视，蔑视",
+     "en": "to openly disregard a rule or convention with scorn",
+     "ex": [
+      {
+       "en": "Drivers who flout the speed limit in school zones endanger children and invite heavy fines.",
+       "zh": "在学校区域公然无视限速的司机既危及儿童，也会招致重罚。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "defy",
+    "scorn",
+    "disregard",
+    "violate"
+   ],
+   "ant": [
+    "obey",
+    "observe"
+   ],
+   "conf": [
+    "flaunt"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "frugal",
+   "w": "frugal",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "节俭的，朴素的",
+     "en": "careful about spending money and avoiding waste",
+     "ex": [
+      {
+       "en": "Their frugal habits, reusing jars and mending clothes, let them retire a decade earlier than their peers.",
+       "zh": "他们节俭的习惯，比如重复利用罐子、缝补衣服，让他们比同辈人早十年退休。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "thrifty",
+    "economical",
+    "sparing",
+    "prudent"
+   ],
+   "ant": [
+    "extravagant",
+    "profligate"
+   ],
+   "df": 0.3,
+   "scr": true
+  },
+  {
+   "id": "garrulous",
+   "w": "garrulous",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "喋喋不休的，话多的",
+     "en": "talking a great deal, especially about trivial matters",
+     "ex": [
+      {
+       "en": "The garrulous barber kept up a stream of gossip, seldom pausing long enough to let customers reply.",
+       "zh": "那位话痨理发师不停地说着闲话，几乎没停顿过，顾客连插话的机会都没有。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "talkative",
+    "voluble",
+    "chatty",
+    "wordy"
+   ],
+   "ant": [
+    "taciturn",
+    "reticent"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "gregarious",
+   "w": "gregarious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "爱交际的，合群的",
+     "en": "fond of company and easily at ease with other people",
+     "ex": [
+      {
+       "en": "Unlike her reserved brother, she was gregarious and could turn a room full of strangers into friends.",
+       "zh": "与内向的哥哥不同，她善于交际，能让一屋子陌生人变成朋友。"
+      }
+     ]
+    },
+    {
+     "pos": "adj.",
+     "zh": "群居的",
+     "en": "living in flocks or groups rather than alone, said of animals",
+     "ex": [
+      {
+       "en": "Wolves are gregarious animals whose survival depends on cooperation within the pack during every hunt.",
+       "zh": "狼是群居动物，每次捕猎时的生存都依赖狼群内部的合作。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "sociable",
+    "outgoing",
+    "convivial",
+    "companionable"
+   ],
+   "ant": [
+    "reclusive",
+    "aloof"
+   ],
+   "df": 0.45
+  },
+  {
+   "id": "guile",
+   "w": "guile",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "狡诈，诡计",
+     "en": "skill at deceiving others through cunning",
+     "ex": [
+      {
+       "en": "The negotiator won concessions not through force but through guile, letting rivals believe the idea was their own.",
+       "zh": "这位谈判者靠的不是强硬而是诡计赢得让步，让对手以为那个主意是他们自己的。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "cunning",
+    "craftiness",
+    "artifice",
+    "deceit"
+   ],
+   "ant": [
+    "candor",
+    "honesty"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "hackneyed",
+   "w": "hackneyed",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "陈腐的，老生常谈的",
+     "en": "made stale by overuse and no longer fresh or interesting",
+     "ex": [
+      {
+       "en": "The film's hackneyed plot, with its long-lost twin and its convenient amnesia, offered no surprises to the audience.",
+       "zh": "影片陈腐的情节，失散多年的双胞胎加上恰到好处的失忆，没给观众带来任何惊喜。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "trite",
+    "stale",
+    "commonplace",
+    "overused"
+   ],
+   "ant": [
+    "original",
+    "fresh"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "hedge",
+   "w": "hedge",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.i.",
+     "zh": "含糊其辞，避免明确表态",
+     "en": "to avoid committing oneself to a clear position",
+     "ex": [
+      {
+       "en": "Asked whether the budget would pass, the senator hedged, citing unpredictable negotiations and a divided caucus.",
+       "zh": "被问及预算能否通过时，这位参议员含糊其辞，称谈判难以预料且党团内部意见分歧。"
+      }
+     ]
+    },
+    {
+     "pos": "v.t.",
+     "zh": "（用对冲）防范损失",
+     "en": "to protect oneself against loss by balancing a risk with an opposite one",
+     "ex": [
+      {
+       "en": "Cautious investors often hedge their stock holdings with assets that tend to rise when markets fall.",
+       "zh": "谨慎的投资者常用在股市下跌时往往上涨的资产来对冲所持股票的风险。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "equivocate",
+    "waffle",
+    "dodge",
+    "evade"
+   ],
+   "ant": [
+    "commit"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "iconoclast",
+   "w": "iconoclast",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "打破旧习者，反传统者",
+     "en": "a person who attacks cherished beliefs or established institutions",
+     "ex": [
+      {
+       "en": "A true iconoclast, the composer ridiculed the conventions of his teachers and wrote music no orchestra could classify.",
+       "zh": "作为一个真正的反传统者，这位作曲家嘲笑师长的规矩，写出了没有乐团能归类的音乐。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "rebel",
+    "dissenter",
+    "maverick",
+    "nonconformist"
+   ],
+   "ant": [
+    "conformist",
+    "traditionalist"
+   ],
+   "df": 0.55
+  },
+  {
+   "id": "illicit",
+   "w": "illicit",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "违法的，违禁的",
+     "en": "forbidden by law or by accepted rules",
+     "ex": [
+      {
+       "en": "Authorities traced the illicit shipment through a chain of shell companies registered in three different countries.",
+       "zh": "当局顺着注册在三个不同国家的一连串空壳公司追查那批违禁货物。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "unlawful",
+    "forbidden",
+    "illegal",
+    "clandestine"
+   ],
+   "ant": [
+    "lawful",
+    "legitimate"
+   ],
+   "conf": [
+    "elicit"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "illusion",
+   "w": "illusion",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "错觉，幻想",
+     "en": "a false impression or belief that does not match reality",
+     "ex": [
+      {
+       "en": "The mirrors along the corridor created the illusion of a hall twice as long as it truly was.",
+       "zh": "走廊沿线的镜子造成了一种错觉，让大厅看起来比实际长一倍。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "delusion",
+    "fallacy",
+    "misconception",
+    "mirage"
+   ],
+   "ant": [
+    "reality",
+    "fact"
+   ],
+   "conf": [
+    "allusion"
+   ],
+   "df": 0.25,
+   "scr": true
+  },
+  {
+   "id": "imminent",
+   "w": "imminent",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "即将发生的，迫在眉睫的",
+     "en": "about to happen very soon",
+     "ex": [
+      {
+       "en": "With storm clouds gathering and the radio warning of floods, the evacuation of the valley seemed imminent.",
+       "zh": "乌云聚集，广播又在预警洪水，疏散山谷居民似乎迫在眉睫。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "impending",
+    "looming",
+    "forthcoming",
+    "approaching"
+   ],
+   "ant": [
+    "distant",
+    "remote"
+   ],
+   "conf": [
+    "eminent"
+   ],
+   "df": 0.35,
+   "scr": true
+  },
+  {
+   "id": "impetuous",
+   "w": "impetuous",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "冲动的，鲁莽的",
+     "en": "acting quickly and rashly without thinking",
+     "ex": [
+      {
+       "en": "His impetuous decision to quit without another offer worried his family more than the loss of income itself.",
+       "zh": "他没有下家就贸然辞职的冲动决定，比收入损失本身更让家人担忧。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "rash",
+    "hasty",
+    "impulsive",
+    "reckless"
+   ],
+   "ant": [
+    "cautious",
+    "deliberate"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "inchoate",
+   "w": "inchoate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "刚开始的，未成形的",
+     "en": "only just begun and not yet fully formed",
+     "ex": [
+      {
+       "en": "The movement was still inchoate, a loose mood of discontent rather than a program anyone could define.",
+       "zh": "这场运动仍处于萌芽阶段，只是一种松散的不满情绪，还不是谁也说得清的纲领。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "nascent",
+    "rudimentary",
+    "embryonic",
+    "formless"
+   ],
+   "ant": [
+    "developed",
+    "mature"
+   ],
+   "df": 0.65
+  },
+  {
+   "id": "ingenious",
+   "w": "ingenious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "巧妙的，有独创性的",
+     "en": "clever and inventive in solving a problem",
+     "ex": [
+      {
+       "en": "The engineer devised an ingenious method of cooling the server room using nothing but the building's own ventilation shafts.",
+       "zh": "工程师想出了一个巧妙的办法，仅利用大楼自身的通风井就给机房降温。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "clever",
+    "inventive",
+    "resourceful",
+    "shrewd"
+   ],
+   "ant": [
+    "clumsy",
+    "dull"
+   ],
+   "conf": [
+    "ingenuous"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "ingenuous",
+   "w": "ingenuous",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "天真坦率的，不设防的",
+     "en": "innocently honest and trusting, without any hidden motive",
+     "ex": [
+      {
+       "en": "Her ingenuous question, asked without any hint of cunning, exposed the flaw that the experts had been avoiding.",
+       "zh": "她那个不带丝毫心机的天真提问，揭出了专家们一直回避的漏洞。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "naive",
+    "artless",
+    "candid",
+    "guileless"
+   ],
+   "ant": [
+    "disingenuous",
+    "sophisticated"
+   ],
+   "conf": [
+    "ingenious"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "innocuous",
+   "w": "innocuous",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "无害的，不会引起反感的",
+     "en": "unlikely to cause harm or offense",
+     "ex": [
+      {
+       "en": "The remark seemed innocuous at the time, yet it later became the centerpiece of the lawsuit.",
+       "zh": "这句话当时看似无害，却后来成了诉讼的核心证据。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "harmless",
+    "benign",
+    "inoffensive",
+    "bland"
+   ],
+   "ant": [
+    "harmful",
+    "noxious"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "insipid",
+   "w": "insipid",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "平淡无味的，乏味的",
+     "en": "lacking flavor, interest or vigor",
+     "ex": [
+      {
+       "en": "The soup was insipid and the dinner conversation proved scarcely more flavorful, so most guests left early.",
+       "zh": "汤寡淡无味，晚宴上的谈话也没有好多少，所以大多数客人早早离开了。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "bland",
+    "vapid",
+    "flat",
+    "tasteless"
+   ],
+   "ant": [
+    "piquant",
+    "zesty"
+   ],
+   "df": 0.55
+  },
+  {
+   "id": "intransigent",
+   "w": "intransigent",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "不妥协的，顽固的",
+     "en": "refusing to change one's position or compromise",
+     "ex": [
+      {
+       "en": "Both delegations remained intransigent, and the talks ended without a single compromise on the disputed border.",
+       "zh": "双方代表团都毫不让步，谈判在边界争议上没有达成任何妥协便告结束。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "obstinate",
+    "uncompromising",
+    "stubborn",
+    "inflexible"
+   ],
+   "ant": [
+    "flexible",
+    "amenable"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "laconic",
+   "w": "laconic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "言简意赅的，寥寥数语的",
+     "en": "using very few words",
+     "ex": [
+      {
+       "en": "Her laconic reply, a single word scribbled in the margin, conveyed more disapproval than a page of criticism.",
+       "zh": "她那句简短的回复，页边草草写下的一个词，比整页批评更能表达不满。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "terse",
+    "brief",
+    "curt",
+    "concise"
+   ],
+   "ant": [
+    "verbose",
+    "garrulous"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "laudable",
+   "w": "laudable",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "值得称赞的",
+     "en": "deserving praise, even if results are imperfect",
+     "ex": [
+      {
+       "en": "The firm's goal of reducing waste is laudable, though its methods have so far produced little measurable change.",
+       "zh": "该公司减少浪费的目标值得称赞，尽管其方法迄今几乎没有带来可衡量的改变。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "praiseworthy",
+    "commendable",
+    "admirable",
+    "meritorious"
+   ],
+   "ant": [
+    "blameworthy",
+    "reprehensible"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "lethargic",
+   "w": "lethargic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "无精打采的，昏沉的",
+     "en": "lacking energy and slow to respond",
+     "ex": [
+      {
+       "en": "After the heavy holiday meal, the guests grew lethargic and drifted toward the sofas rather than the dance floor.",
+       "zh": "丰盛的节日大餐之后，客人们变得昏昏沉沉，不去舞池，而是晃向沙发。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "sluggish",
+    "listless",
+    "torpid",
+    "languid"
+   ],
+   "ant": [
+    "energetic",
+    "spirited"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "loquacious",
+   "w": "loquacious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "多话的，健谈的",
+     "en": "tending to talk a lot",
+     "ex": [
+      {
+       "en": "Normally loquacious at meetings, he sat quietly today, and the room seemed oddly empty without his commentary.",
+       "zh": "他在会议上通常话很多，今天却一言不发，没有他的评论，房间显得出奇地空。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "talkative",
+    "voluble",
+    "garrulous",
+    "chatty"
+   ],
+   "ant": [
+    "taciturn",
+    "reticent"
+   ],
+   "df": 0.55
+  },
+  {
+   "id": "lucid",
+   "w": "lucid",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "清晰易懂的",
+     "en": "expressed so clearly that it is easy to understand",
+     "ex": [
+      {
+       "en": "The physicist's lucid explanation made a notoriously difficult theory understandable to an audience of first-year students.",
+       "zh": "这位物理学家清晰的讲解，让一个出了名的难懂理论变得连一年级学生也能听明白。"
+      }
+     ]
+    },
+    {
+     "pos": "adj.",
+     "zh": "神志清醒的",
+     "en": "mentally clear and rational",
+     "ex": [
+      {
+       "en": "Though gravely ill, the old judge remained lucid and dictated his final ruling without a single error.",
+       "zh": "尽管病重，这位老法官头脑依然清醒，口述最后的判决时没有出一处差错。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "clear",
+    "limpid",
+    "comprehensible",
+    "transparent"
+   ],
+   "ant": [
+    "opaque",
+    "muddled"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "maverick",
+   "w": "maverick",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "特立独行者；持异见者",
+     "en": "a person who thinks and acts independently of a group or party",
+     "ex": [
+      {
+       "en": "The senator, a maverick within her party, repeatedly voted against the leadership's budget proposals despite heavy pressure.",
+       "zh": "这位参议员在党内特立独行，尽管压力巨大，仍一再投票反对党领导层的预算提案。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "nonconformist",
+    "iconoclast",
+    "rebel",
+    "individualist"
+   ],
+   "ant": [
+    "conformist",
+    "follower"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "mercurial",
+   "w": "mercurial",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "善变的，反复无常的",
+     "en": "subject to sudden and unpredictable changes of mood",
+     "ex": [
+      {
+       "en": "The director's mercurial temper made rehearsals tense, since no one knew whether praise or fury would greet them.",
+       "zh": "导演喜怒无常的脾气使排练气氛紧张，没人知道迎接他们的是称赞还是怒火。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "capricious",
+    "fickle",
+    "erratic",
+    "changeable"
+   ],
+   "ant": [
+    "steady",
+    "constant"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "militate",
+   "w": "militate",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "v.i.",
+     "zh": "起阻碍作用，产生不利影响（militate against）",
+     "en": "to have a strong influence against something succeeding",
+     "ex": [
+      {
+       "en": "The poor lighting and cramped seating militate against any hope of a productive study session in the library.",
+       "zh": "糟糕的照明和拥挤的座位使人在图书馆里难以有高效的学习。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "counteract",
+    "oppose",
+    "hinder",
+    "weigh"
+   ],
+   "ant": [
+    "promote"
+   ],
+   "df": 0.8,
+   "conf": [
+    "mitigate"
+   ]
+  },
+  {
+   "id": "mitigate",
+   "w": "mitigate",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "减轻，缓和",
+     "en": "to make something less severe, harmful, or painful",
+     "ex": [
+      {
+       "en": "Planting trees along the riverbank can mitigate the damage caused by seasonal flooding.",
+       "zh": "在河岸种树可以减轻季节性洪水造成的损害。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "alleviate",
+    "lessen",
+    "ease",
+    "temper"
+   ],
+   "ant": [
+    "aggravate",
+    "exacerbate"
+   ],
+   "df": 0.5,
+   "conf": [
+    "militate"
+   ]
+  },
+  {
+   "id": "mollify",
+   "w": "mollify",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "抚慰，使息怒",
+     "en": "to calm someone who is angry or upset by gentle or generous treatment",
+     "ex": [
+      {
+       "en": "The manager offered a partial refund in an attempt to mollify the customers who had waited for hours.",
+       "zh": "经理提出部分退款，试图安抚那些等了数小时的顾客。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "appease",
+    "pacify",
+    "soothe",
+    "assuage"
+   ],
+   "ant": [
+    "enrage",
+    "provoke"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "mundane",
+   "w": "mundane",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "平凡的，乏味的；世俗的",
+     "en": "ordinary and dull; belonging to everyday practical life",
+     "ex": [
+      {
+       "en": "The novelist finds profound meaning in the mundane routines of commuting, cooking, and paying bills.",
+       "zh": "这位小说家从通勤、做饭、付账单这些平凡日常中发掘出深刻意义。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "ordinary",
+    "banal",
+    "prosaic",
+    "routine"
+   ],
+   "ant": [
+    "extraordinary",
+    "exotic"
+   ],
+   "df": 0.4
+  },
+  {
+   "id": "nascent",
+   "w": "nascent",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "初生的，萌芽的",
+     "en": "just coming into existence and not yet fully developed",
+     "ex": [
+      {
+       "en": "Regulators have struggled to oversee the nascent industry, whose technology changes faster than the rules can be written.",
+       "zh": "监管者很难管住这个新兴行业，因为其技术变化快于规则的制定。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "incipient",
+    "emerging",
+    "budding",
+    "embryonic"
+   ],
+   "ant": [
+    "mature",
+    "established"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "nebulous",
+   "w": "nebulous",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "模糊的，含混的",
+     "en": "vague and lacking a clear shape or definition",
+     "ex": [
+      {
+       "en": "The proposal remained so nebulous that no one could say what it would actually require of employees.",
+       "zh": "这项提议始终含混不清，没人说得出它对员工究竟有什么要求。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "vague",
+    "hazy",
+    "ambiguous",
+    "indistinct"
+   ],
+   "ant": [
+    "distinct",
+    "definite"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "obdurate",
+   "w": "obdurate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "顽固的，执拗的",
+     "en": "stubbornly refusing to change one's mind or soften one's feelings",
+     "ex": [
+      {
+       "en": "Despite months of persuasion, the obdurate board refused to reconsider its decision to close the plant.",
+       "zh": "尽管劝说了数月，顽固的董事会仍拒绝重新考虑关闭工厂的决定。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "stubborn",
+    "intransigent",
+    "adamant",
+    "inflexible"
+   ],
+   "ant": [
+    "pliable",
+    "amenable"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "obsequious",
+   "w": "obsequious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "谄媚的，奉承的",
+     "en": "excessively eager to please or obey people in positions of power",
+     "ex": [
+      {
+       "en": "The obsequious assistant laughed at every one of the director's jokes and agreed with each of his opinions.",
+       "zh": "那位谄媚的助理对主管的每个笑话都放声大笑，对他的每个观点都表示赞同。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "servile",
+    "fawning",
+    "subservient",
+    "sycophantic"
+   ],
+   "ant": [
+    "domineering",
+    "assertive"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "obviate",
+   "w": "obviate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "消除，避免（使成为不必要）",
+     "en": "to remove a difficulty in advance so that some action is no longer needed",
+     "ex": [
+      {
+       "en": "A clear contract at the outset would have obviated the need for months of costly legal negotiation.",
+       "zh": "一开始就订立清晰的合同，本可避免数月代价高昂的法律谈判。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "preclude",
+    "forestall",
+    "avert",
+    "prevent"
+   ],
+   "ant": [
+    "necessitate"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "opaque",
+   "w": "opaque",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "不透明的；晦涩难懂的",
+     "en": "not letting light through; difficult to understand or see into",
+     "ex": [
+      {
+       "en": "The agency's opaque accounting practices made it nearly impossible for outsiders to determine where the funds had gone.",
+       "zh": "该机构晦涩不透明的会计做法，使外人几乎无法查明资金去向。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "murky",
+    "cloudy",
+    "unclear",
+    "obscure"
+   ],
+   "ant": [
+    "transparent",
+    "lucid"
+   ],
+   "df": 0.4,
+   "scr": true
+  },
+  {
+   "id": "ostentatious",
+   "w": "ostentatious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "炫耀的，招摇的",
+     "en": "displaying wealth or talent in a showy way intended to impress others",
+     "ex": [
+      {
+       "en": "Embarrassed by the ostentatious mansion, the heir quietly moved into a modest apartment across town.",
+       "zh": "继承人对那座招摇的豪宅感到难堪，悄悄搬进了城另一头的一间朴素公寓。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "showy",
+    "flashy",
+    "pretentious",
+    "flamboyant"
+   ],
+   "ant": [
+    "modest",
+    "unassuming"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "paucity",
+   "w": "paucity",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "少量，缺乏",
+     "en": "an extremely small amount of something; a shortage",
+     "ex": [
+      {
+       "en": "A paucity of reliable data prevented the researchers from drawing firm conclusions about the drug's long-term effects.",
+       "zh": "可靠数据的匮乏使研究者无法就该药物的长期效果得出确切结论。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "dearth",
+    "scarcity",
+    "scantiness",
+    "shortage"
+   ],
+   "ant": [
+    "abundance",
+    "plethora"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "pedantic",
+   "w": "pedantic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "迂腐的，卖弄学问的",
+     "en": "overly concerned with minor rules or with showing off book learning",
+     "ex": [
+      {
+       "en": "The professor's pedantic corrections of trivial grammatical slips distracted students from the substance of their arguments.",
+       "zh": "教授对细枝末节的语法失误吹毛求疵，使学生无暇顾及论点本身的实质。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "fussy",
+    "bookish",
+    "finicky",
+    "punctilious"
+   ],
+   "ant": [
+    "informal"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "perfunctory",
+   "w": "perfunctory",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "敷衍的，草率的",
+     "en": "done as a routine duty with little interest or care",
+     "ex": [
+      {
+       "en": "The inspector gave the equipment only a perfunctory glance before signing the safety certificate.",
+       "zh": "检查员只是敷衍地扫了一眼设备，就在安全证书上签了字。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "cursory",
+    "superficial",
+    "mechanical",
+    "careless"
+   ],
+   "ant": [
+    "thorough",
+    "meticulous"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "perspicacious",
+   "w": "perspicacious",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "敏锐的，有洞察力的",
+     "en": "having keen mental insight; quick to see through things",
+     "ex": [
+      {
+       "en": "A perspicacious investor, she recognized the weakness in the company's strategy long before the analysts did.",
+       "zh": "身为眼光敏锐的投资者，她早在分析师之前就看出了这家公司战略的弱点。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "astute",
+    "shrewd",
+    "discerning",
+    "perceptive"
+   ],
+   "ant": [
+    "obtuse",
+    "naive"
+   ],
+   "df": 0.8,
+   "conf": [
+    "perspicuous"
+   ]
+  },
+  {
+   "id": "perspicuous",
+   "w": "perspicuous",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "清晰易懂的",
+     "en": "expressed so clearly that it is easy to understand",
+     "ex": [
+      {
+       "en": "The textbook's perspicuous explanations made even the most difficult theorems accessible to first-year students.",
+       "zh": "这本教材清晰易懂的讲解让一年级学生也能理解最难的定理。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "lucid",
+    "clear",
+    "intelligible",
+    "plain"
+   ],
+   "ant": [
+    "obscure",
+    "opaque"
+   ],
+   "df": 0.8,
+   "conf": [
+    "perspicacious"
+   ]
+  },
+  {
+   "id": "phlegmatic",
+   "w": "phlegmatic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "冷静的，迟钝的",
+     "en": "calm and not easily excited or upset",
+     "ex": [
+      {
+       "en": "While colleagues panicked over the sudden deadline change, the phlegmatic editor simply shrugged and kept working.",
+       "zh": "同事们为突然改变的截稿期慌了神，而冷静的编辑只是耸耸肩，继续工作。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "stolid",
+    "impassive",
+    "placid",
+    "unflappable"
+   ],
+   "ant": [
+    "excitable",
+    "passionate"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "placate",
+   "w": "placate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "安抚，平息（怒气）",
+     "en": "to stop someone from feeling angry by making a concession or gesture",
+     "ex": [
+      {
+       "en": "The mayor tried to placate angry residents by promising a public hearing on the proposed highway.",
+       "zh": "市长承诺就拟建的高速公路举行公开听证会，试图安抚愤怒的居民。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "appease",
+    "pacify",
+    "mollify",
+    "conciliate"
+   ],
+   "ant": [
+    "provoke",
+    "antagonize"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "platitude",
+   "w": "platitude",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "陈词滥调",
+     "en": "a trite remark offered as though it were fresh and significant",
+     "ex": [
+      {
+       "en": "The speech offered little beyond platitudes about hard work and perseverance, and the audience left unmoved.",
+       "zh": "这篇演讲除了关于勤奋和坚持的陈词滥调外几乎没什么内容，听众听后无动于衷。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "cliche",
+    "banality",
+    "truism",
+    "bromide"
+   ],
+   "ant": [
+    "insight"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "plethora",
+   "w": "plethora",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "过多，过剩",
+     "en": "an amount that is larger than is needed or useful",
+     "ex": [
+      {
+       "en": "Faced with a plethora of investment options, many beginners become paralyzed and choose none at all.",
+       "zh": "面对过多的投资选择，许多新手变得不知所措，最后一个也不选。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "surfeit",
+    "glut",
+    "excess",
+    "profusion"
+   ],
+   "ant": [
+    "paucity",
+    "dearth"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "polemic",
+   "w": "polemic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "论战（文章）；激烈的抨击",
+     "en": "a forceful written or spoken attack on a belief or policy",
+     "ex": [
+      {
+       "en": "Her essay was less a balanced analysis than a fierce polemic against the prevailing economic orthodoxy.",
+       "zh": "她的文章与其说是平衡的分析，不如说是对主流经济学正统观念的猛烈抨击。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "diatribe",
+    "tirade",
+    "controversy",
+    "invective"
+   ],
+   "ant": [],
+   "df": 0.7
+  },
+  {
+   "id": "pragmatic",
+   "w": "pragmatic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "务实的，讲求实效的",
+     "en": "dealing with problems in a sensible way based on practical results rather than ideals",
+     "ex": [
+      {
+       "en": "Rather than pursue an ideal solution, the committee adopted a pragmatic compromise that most members could accept.",
+       "zh": "委员会没有追求理想方案，而是采纳了大多数成员都能接受的务实折中办法。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "practical",
+    "realistic",
+    "sensible",
+    "utilitarian"
+   ],
+   "ant": [
+    "idealistic",
+    "impractical"
+   ],
+   "df": 0.3,
+   "scr": true
+  },
+  {
+   "id": "precarious",
+   "w": "precarious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "不稳的，岌岌可危的",
+     "en": "dangerously unstable and dependent on chance or on things going well",
+     "ex": [
+      {
+       "en": "After the loss of its largest client, the firm's financial position became increasingly precarious.",
+       "zh": "失去最大客户后，这家公司的财务状况愈发岌岌可危。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "unstable",
+    "perilous",
+    "shaky",
+    "insecure"
+   ],
+   "ant": [
+    "secure",
+    "stable"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "precipitate",
+   "w": "precipitate",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "加速，促成（突然发生）",
+     "en": "to cause something to happen suddenly or sooner than expected",
+     "ex": [
+      {
+       "en": "The sudden collapse of the bank precipitated a wave of panic that spread across the entire financial system.",
+       "zh": "银行的突然倒闭引发了一波席卷整个金融体系的恐慌。"
+      }
+     ]
+    },
+    {
+     "pos": "adj.",
+     "zh": "仓促的，鲁莽的",
+     "en": "done or made hastily and without enough thought",
+     "ex": [
+      {
+       "en": "Wary of a precipitate decision, the council postponed the vote until further studies were completed.",
+       "zh": "理事会担心决定仓促，便把表决推迟到进一步研究完成之后。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "hasten",
+    "trigger",
+    "provoke",
+    "accelerate"
+   ],
+   "ant": [
+    "delay",
+    "retard"
+   ],
+   "df": 0.6,
+   "conf": [
+    "precipitous"
+   ]
+  },
+  {
+   "id": "precipitous",
+   "w": "precipitous",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "陡峭的；骤降的",
+     "en": "extremely steep; falling or changing suddenly and sharply",
+     "ex": [
+      {
+       "en": "A precipitous drop in demand left the factory with warehouses full of unsold goods within a single month.",
+       "zh": "需求的骤降使这家工厂在短短一个月内仓库里堆满了卖不出去的货物。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "steep",
+    "sheer",
+    "abrupt",
+    "sudden"
+   ],
+   "ant": [
+    "gradual",
+    "gentle"
+   ],
+   "df": 0.6,
+   "conf": [
+    "precipitate"
+   ]
+  },
+  {
+   "id": "prescribe",
+   "w": "prescribe",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "规定，指定",
+     "en": "to lay down as a rule or recommend as the right course of action",
+     "ex": [
+      {
+       "en": "The style guide prescribes a single format for citations, leaving authors no room for personal preference.",
+       "zh": "这本格式指南对引文规定了唯一的格式，作者没有任何个人偏好的余地。"
+      }
+     ]
+    },
+    {
+     "pos": "v.t.",
+     "zh": "开（药方）",
+     "en": "to order a medicine or treatment for a patient",
+     "ex": [
+      {
+       "en": "The physician prescribed complete rest and plenty of fluids for the patient's persistent cough.",
+       "zh": "医生为患者持续不愈的咳嗽开出了完全休息和多喝水的医嘱。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "dictate",
+    "stipulate",
+    "decree",
+    "ordain"
+   ],
+   "ant": [
+    "forbid",
+    "prohibit"
+   ],
+   "df": 0.3,
+   "scr": true,
+   "conf": [
+    "proscribe"
+   ]
+  },
+  {
+   "id": "prodigal",
+   "w": "prodigal",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "挥霍的，浪费的",
+     "en": "spending money or resources freely and recklessly",
+     "ex": [
+      {
+       "en": "The prodigal heir squandered his inheritance on gambling and parties within a few years of receiving it.",
+       "zh": "这位挥霍无度的继承人在继承遗产后短短几年内，就把钱都花在赌博和聚会上了。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "wasteful",
+    "extravagant",
+    "lavish",
+    "improvident"
+   ],
+   "ant": [
+    "frugal",
+    "thrifty"
+   ],
+   "df": 0.6,
+   "conf": [
+    "prodigy"
+   ]
+  },
+  {
+   "id": "prodigy",
+   "w": "prodigy",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "神童，奇才",
+     "en": "a young person with extraordinary talent",
+     "ex": [
+      {
+       "en": "A violin prodigy at six, she was performing with major orchestras before she turned fourteen.",
+       "zh": "她六岁便是小提琴神童，不满十四岁就已与大型乐团同台演出。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "genius",
+    "wunderkind",
+    "virtuoso",
+    "marvel"
+   ],
+   "ant": [
+    "dunce"
+   ],
+   "df": 0.5,
+   "conf": [
+    "prodigal"
+   ]
+  },
+  {
+   "id": "profligate",
+   "w": "profligate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "挥霍无度的；放荡的",
+     "en": "recklessly wasteful, especially with money",
+     "ex": [
+      {
+       "en": "The profligate government spent far beyond its revenue, leaving future generations to repay the enormous debt.",
+       "zh": "这个挥霍无度的政府支出远超收入，把巨额债务留给子孙后代偿还。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "spendthrift",
+    "extravagant",
+    "dissolute",
+    "reckless"
+   ],
+   "ant": [
+    "frugal",
+    "thrifty"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "prolific",
+   "w": "prolific",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "多产的",
+     "en": "producing a great deal of work, fruit, or offspring",
+     "ex": [
+      {
+       "en": "A prolific composer, he wrote more than six hundred works despite a life cut short by illness.",
+       "zh": "他是位多产的作曲家，尽管因病英年早逝，仍写下了六百多部作品。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "productive",
+    "fertile",
+    "fruitful",
+    "abundant"
+   ],
+   "ant": [
+    "barren",
+    "unproductive"
+   ],
+   "df": 0.4,
+   "scr": true
+  },
+  {
+   "id": "propensity",
+   "w": "propensity",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "倾向，习性",
+     "en": "a natural tendency to behave in a particular way",
+     "ex": [
+      {
+       "en": "Her propensity for blunt criticism earned the respect of colleagues but occasionally wounded the feelings of newcomers.",
+       "zh": "她直言批评的习性赢得了同事的尊重，但偶尔也会伤到新人的感情。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "tendency",
+    "inclination",
+    "proclivity",
+    "penchant"
+   ],
+   "ant": [
+    "aversion",
+    "disinclination"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "proscribe",
+   "w": "proscribe",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "禁止，取缔",
+     "en": "to forbid officially or by law",
+     "ex": [
+      {
+       "en": "The charter proscribes any form of political activity on the premises, with expulsion as the penalty for violators.",
+       "zh": "章程禁止在场所内进行任何形式的政治活动，违者将被开除。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "prohibit",
+    "ban",
+    "forbid",
+    "outlaw"
+   ],
+   "ant": [
+    "allow",
+    "authorize"
+   ],
+   "df": 0.8,
+   "conf": [
+    "prescribe"
+   ]
+  },
+  {
+   "id": "qualify",
+   "w": "qualify",
+   "tags": [
+    "core",
+    "trap"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "限定，使有所保留",
+     "en": "to limit or modify a statement so that it is less absolute",
+     "ex": [
+      {
+       "en": "She qualified her endorsement with several warnings, so the praise was far less enthusiastic than it first appeared.",
+       "zh": "她在表示支持的同时附加了若干警告，因此这番称赞远不如乍看起来那般热情。"
+      }
+     ]
+    },
+    {
+     "pos": "v.i.",
+     "zh": "具备资格",
+     "en": "to meet the conditions required for something",
+     "ex": [
+      {
+       "en": "Only applicants who qualify under the new income rules will receive a housing grant this year.",
+       "zh": "只有符合新收入规定的申请人今年才能获得住房补助。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "limit",
+    "restrict",
+    "modify",
+    "temper"
+   ],
+   "ant": [],
+   "df": 0.3,
+   "scr": true,
+   "trapSenses": [
+    {
+     "pos": "v.t.",
+     "zh": "限定，使有所保留",
+     "en": "to limit or modify a statement so that it is less absolute",
+     "ex": [
+      {
+       "en": "She qualified her endorsement with several warnings, so the praise was far less enthusiastic than it first appeared.",
+       "zh": "她在表示支持的同时附加了若干警告，因此这番称赞远不如乍看起来那般热情。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quiescent",
+   "w": "quiescent",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "静止的，休眠的",
+     "en": "temporarily quiet, inactive, or at rest",
+     "ex": [
+      {
+       "en": "The volcano had been quiescent for centuries, lulling nearby villagers into a false sense of security.",
+       "zh": "这座火山沉寂了数个世纪，使附近村民产生了虚假的安全感。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "dormant",
+    "inactive",
+    "latent",
+    "still"
+   ],
+   "ant": [
+    "active",
+    "turbulent"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "quixotic",
+   "w": "quixotic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "不切实际的，空想的",
+     "en": "idealistic in a way that ignores practical limits",
+     "ex": [
+      {
+       "en": "Critics dismissed his plan to eliminate poverty within a decade as a quixotic fantasy.",
+       "zh": "批评者把他十年内消除贫困的计划斥为不切实际的幻想。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "impractical",
+    "romantic",
+    "idealistic",
+    "visionary"
+   ],
+   "ant": [
+    "pragmatic",
+    "realistic"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "rancor",
+   "w": "rancor",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "怨恨，积怨",
+     "en": "deep and lasting bitter resentment",
+     "ex": [
+      {
+       "en": "Years after the lawsuit ended, the former partners still spoke of one another with undisguised rancor.",
+       "zh": "诉讼结束多年后，前合伙人谈起彼此仍毫不掩饰怨恨。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "animosity",
+    "bitterness",
+    "spite",
+    "enmity"
+   ],
+   "ant": [
+    "goodwill",
+    "amity"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "recalcitrant",
+   "w": "recalcitrant",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "顽抗的，不服管束的",
+     "en": "resisting authority or control in a stubborn way",
+     "ex": [
+      {
+       "en": "The recalcitrant witness ignored repeated instructions from the judge and continued to interrupt the proceedings.",
+       "zh": "那名桀骜不驯的证人无视法官的多次指示，仍不断打断庭审。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "unruly",
+    "defiant",
+    "refractory",
+    "obstinate"
+   ],
+   "ant": [
+    "compliant",
+    "docile"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "refute",
+   "w": "refute",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "驳斥，反驳",
+     "en": "to prove that a claim or argument is false",
+     "ex": [
+      {
+       "en": "New fossil evidence refuted the long-held belief that the species had disappeared before the ice age.",
+       "zh": "新的化石证据驳斥了该物种在冰河期之前就已灭绝这一长期以来的看法。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "rebut",
+    "disprove",
+    "discredit",
+    "confute"
+   ],
+   "ant": [
+    "confirm",
+    "corroborate"
+   ],
+   "df": 0.4,
+   "scr": true
+  },
+  {
+   "id": "relegate",
+   "w": "relegate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "使降级；把……打入冷宫",
+     "en": "to assign someone or something to a lower or less important position",
+     "ex": [
+      {
+       "en": "After the scandal, the once-powerful minister was relegated to a minor post with no real influence.",
+       "zh": "丑闻之后，这位昔日权势显赫的部长被降到一个没有实权的小职位上。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "demote",
+    "downgrade",
+    "consign",
+    "banish"
+   ],
+   "ant": [
+    "promote",
+    "elevate"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "repudiate",
+   "w": "repudiate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "拒绝接受，否认；与……断绝关系",
+     "en": "to reject something as untrue or unjust; to disown",
+     "ex": [
+      {
+       "en": "The candidate publicly repudiated the extremist group that had endorsed her campaign, calling its views abhorrent.",
+       "zh": "这位候选人公开与支持她竞选的极端组织划清界限，称其观点令人憎恶。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "disavow",
+    "renounce",
+    "reject",
+    "disown"
+   ],
+   "ant": [
+    "embrace",
+    "accept"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "reticent",
+   "w": "reticent",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "沉默寡言的，有保留的",
+     "en": "unwilling to share one's thoughts or feelings",
+     "ex": [
+      {
+       "en": "Usually reticent about his private life, the author surprised readers by revealing so much in his memoir.",
+       "zh": "这位作家平时对私生活讳莫如深，却在回忆录里透露了许多，令读者意外。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "reserved",
+    "restrained",
+    "guarded",
+    "uncommunicative"
+   ],
+   "ant": [
+    "forthcoming",
+    "talkative"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "sagacious",
+   "w": "sagacious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "睿智的，精明的",
+     "en": "having sound judgment and keen practical wisdom",
+     "ex": [
+      {
+       "en": "The sagacious old diplomat foresaw the crisis years earlier and quietly arranged the compromise that averted war.",
+       "zh": "这位睿智的老外交官多年前就预见了危机，并悄悄安排了避免战争的妥协方案。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "wise",
+    "shrewd",
+    "judicious",
+    "astute"
+   ],
+   "ant": [
+    "foolish",
+    "imprudent"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "sanction",
+   "w": "sanction",
+   "tags": [
+    "core",
+    "trap"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "批准，认可",
+     "en": "to give official approval or permission to something",
+     "ex": [
+      {
+       "en": "The university refused to sanction the experiment until the researchers had addressed every ethical concern raised by the review panel.",
+       "zh": "在研究者解决评审小组提出的每一项伦理问题之前，大学拒绝批准该实验。"
+      }
+     ]
+    },
+    {
+     "pos": "n.",
+     "zh": "制裁，处罚",
+     "en": "a penalty imposed on a state or person for breaking a rule or law",
+     "ex": [
+      {
+       "en": "International sanctions against the regime gradually crippled its economy and isolated its leaders.",
+       "zh": "国际社会对该政权的制裁逐步拖垮了其经济，并使其领导人陷入孤立。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "approve",
+    "authorize",
+    "endorse",
+    "penalize"
+   ],
+   "ant": [
+    "forbid",
+    "veto"
+   ],
+   "df": 0.4,
+   "trapSenses": [
+    {
+     "pos": "v.t.",
+     "zh": "批准，认可",
+     "en": "to give official approval or permission to something",
+     "ex": [
+      {
+       "en": "The university refused to sanction the experiment until the researchers had addressed every ethical concern raised by the review panel.",
+       "zh": "在研究者解决评审小组提出的每一项伦理问题之前，大学拒绝批准该实验。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sardonic",
+   "w": "sardonic",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "讥讽的，嘲弄的",
+     "en": "mocking in a bitter or scornful way",
+     "ex": [
+      {
+       "en": "His sardonic remarks about the company's new motto made it clear that he thought the slogan absurd.",
+       "zh": "他对公司新口号的讥讽言论清楚表明，他觉得这句口号荒唐可笑。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "sarcastic",
+    "mocking",
+    "caustic",
+    "cynical"
+   ],
+   "ant": [
+    "sincere",
+    "earnest"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "scrupulous",
+   "w": "scrupulous",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "一丝不苟的；有顾忌的",
+     "en": "extremely careful about details or about doing what is right",
+     "ex": [
+      {
+       "en": "A scrupulous editor, she checked every citation against its original source before approving the manuscript.",
+       "zh": "身为一丝不苟的编辑，她在批准稿件之前，把每条引文都与原始出处核对了一遍。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "meticulous",
+    "conscientious",
+    "painstaking",
+    "punctilious"
+   ],
+   "ant": [
+    "careless",
+    "unscrupulous"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "soporific",
+   "w": "soporific",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "催眠的，令人昏昏欲睡的",
+     "en": "tending to cause sleep or drowsiness",
+     "ex": [
+      {
+       "en": "The lecturer's monotone delivery had a soporific effect, and half the audience was nodding off by noon.",
+       "zh": "讲者单调的语调有催眠效果，到中午时听众已有一半在打瞌睡。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "hypnotic",
+    "sedative",
+    "narcotic",
+    "somnolent"
+   ],
+   "ant": [
+    "stimulating",
+    "invigorating"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "specious",
+   "w": "specious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "似是而非的，华而不实的",
+     "en": "seeming plausible or attractive but actually false or misleading",
+     "ex": [
+      {
+       "en": "The advertisement relied on a specious comparison that made the product appear cheaper than it really was.",
+       "zh": "这则广告依靠似是而非的比较，使产品看起来比实际更便宜。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "fallacious",
+    "misleading",
+    "deceptive",
+    "plausible"
+   ],
+   "ant": [
+    "valid",
+    "sound"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "spurious",
+   "w": "spurious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "伪造的，虚假的",
+     "en": "not genuine; based on false or faulty reasoning",
+     "ex": [
+      {
+       "en": "The study's conclusion rested on a spurious correlation caused by a third, unmeasured variable.",
+       "zh": "该研究的结论建立在一个虚假的相关性之上，这是由第三个未被测量的变量造成的。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "bogus",
+    "counterfeit",
+    "false",
+    "fake"
+   ],
+   "ant": [
+    "genuine",
+    "authentic"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "superfluous",
+   "w": "superfluous",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "多余的，不必要的",
+     "en": "more than is needed or wanted",
+     "ex": [
+      {
+       "en": "Once the editor removed the superfluous adjectives, the paragraph became shorter and considerably more forceful.",
+       "zh": "编辑删去多余的形容词后，这一段变得更短，也有力得多。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "redundant",
+    "excessive",
+    "surplus",
+    "unnecessary"
+   ],
+   "ant": [
+    "essential",
+    "necessary"
+   ],
+   "df": 0.4,
+   "scr": true
+  },
+  {
+   "id": "sycophant",
+   "w": "sycophant",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "谄媚者，马屁精",
+     "en": "a person who flatters the powerful in order to gain advantage",
+     "ex": [
+      {
+       "en": "Surrounded by sycophants who praised every decision, the executive lost touch with the problems facing the company.",
+       "zh": "这位高管被对每个决定都歌功颂德的谄媚者包围，与公司面临的问题脱了节。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "flatterer",
+    "toady",
+    "lackey",
+    "fawner"
+   ],
+   "ant": [
+    "critic",
+    "detractor"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "taciturn",
+   "w": "taciturn",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "沉默寡言的",
+     "en": "habitually saying very little",
+     "ex": [
+      {
+       "en": "The taciturn farmer answered most questions with a nod, and strangers often mistook his silence for hostility.",
+       "zh": "这位沉默寡言的农夫大多数问题只用点头回答，陌生人常把他的沉默误认为敌意。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "laconic",
+    "reserved",
+    "silent",
+    "reticent"
+   ],
+   "ant": [
+    "talkative",
+    "garrulous"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "temper",
+   "w": "temper",
+   "tags": [
+    "core",
+    "trap"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "缓和，调和",
+     "en": "to soften or moderate something by adding a balancing element",
+     "ex": [
+      {
+       "en": "The critic tempered his harsh review with a few generous words about the lead actor's performance.",
+       "zh": "这位评论家在尖刻的评论中加入了几句对男主角表演的赞美，以作缓和。"
+      }
+     ]
+    },
+    {
+     "pos": "v.t.",
+     "zh": "锤炼（使钢变硬）",
+     "en": "to harden metal by heating and then cooling it",
+     "ex": [
+      {
+       "en": "Blacksmiths temper steel by heating it and then cooling it carefully to make it tough but not brittle.",
+       "zh": "铁匠通过加热再小心冷却来淬炼钢材，使其坚韧而不易碎。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "moderate",
+    "soften",
+    "alleviate",
+    "mellow"
+   ],
+   "ant": [
+    "intensify",
+    "aggravate"
+   ],
+   "df": 0.4,
+   "scr": true,
+   "trapSenses": [
+    {
+     "pos": "v.t.",
+     "zh": "缓和，调和",
+     "en": "to soften or moderate something by adding a balancing element",
+     "ex": [
+      {
+       "en": "The critic tempered his harsh review with a few generous words about the lead actor's performance.",
+       "zh": "这位评论家在尖刻的评论中加入了几句对男主角表演的赞美，以作缓和。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tenacious",
+   "w": "tenacious",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "坚韧的，顽强的",
+     "en": "holding firmly to a purpose or position and refusing to give up",
+     "ex": [
+      {
+       "en": "Her tenacious pursuit of the story, despite threats and lawsuits, finally exposed the scandal to the public.",
+       "zh": "尽管面临威胁和诉讼，她仍顽强追查这条新闻，终于将丑闻曝光。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "persistent",
+    "resolute",
+    "determined",
+    "stubborn"
+   ],
+   "ant": [
+    "wavering",
+    "yielding"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "tenuous",
+   "w": "tenuous",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "薄弱的，站不住脚的",
+     "en": "very weak, slight, or lacking a solid basis",
+     "ex": [
+      {
+       "en": "The link between the two events was so tenuous that the committee declined to treat them as related.",
+       "zh": "这两起事件之间的联系过于薄弱，委员会拒绝认定二者相关。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "flimsy",
+    "slight",
+    "fragile",
+    "shaky"
+   ],
+   "ant": [
+    "substantial",
+    "solid"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "terse",
+   "w": "terse",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "简洁的，精炼的；简短生硬的",
+     "en": "brief and to the point, sometimes to the extent of seeming curt",
+     "ex": [
+      {
+       "en": "His terse reply, a single sentence with no greeting, made clear that the conversation was over.",
+       "zh": "他简短生硬的回复只有一句话，连问候都没有，清楚表明谈话到此结束。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "concise",
+    "succinct",
+    "curt",
+    "laconic"
+   ],
+   "ant": [
+    "verbose",
+    "wordy"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "torpor",
+   "w": "torpor",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "n.",
+     "zh": "迟钝，麻木，不活跃",
+     "en": "a state of physical or mental sluggishness and lack of energy",
+     "ex": [
+      {
+       "en": "A heavy lunch and the afternoon heat sank the whole office into a torpor from which no meeting could rouse it.",
+       "zh": "丰盛的午餐加上午后的热浪，让整个办公室陷入一种任何会议都唤不醒的迟钝状态。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "lethargy",
+    "languor",
+    "inertia",
+    "sluggishness"
+   ],
+   "ant": [
+    "vigor",
+    "animation"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "tortuous",
+   "w": "tortuous",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "曲折的；迂回复杂的",
+     "en": "full of twists and turns; needlessly complicated",
+     "ex": [
+      {
+       "en": "The tortuous mountain road wound through dozens of hairpin turns before finally reaching the remote village.",
+       "zh": "蜿蜒曲折的山路绕过数十个急转弯，才终于抵达那个偏远的村庄。"
+      }
+     ]
+    },
+    {
+     "pos": "adj.",
+     "zh": "拐弯抹角的",
+     "en": "roundabout and hard to follow in reasoning or explanation",
+     "ex": [
+      {
+       "en": "His tortuous explanation of the budget confused the committee more than it informed them.",
+       "zh": "他对预算拐弯抹角的解释不仅没有让委员会明白，反而使他们更加困惑。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "winding",
+    "twisting",
+    "convoluted",
+    "circuitous"
+   ],
+   "ant": [
+    "straight",
+    "direct"
+   ],
+   "df": 0.6,
+   "conf": [
+    "torturous"
+   ]
+  },
+  {
+   "id": "torturous",
+   "w": "torturous",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "折磨人的，痛苦的",
+     "en": "causing great pain or suffering",
+     "ex": [
+      {
+       "en": "The torturous final miles of the marathon left even seasoned runners in tears from exhaustion.",
+       "zh": "马拉松最后几英里的折磨让经验丰富的跑者也累得落泪。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "agonizing",
+    "excruciating",
+    "painful",
+    "harrowing"
+   ],
+   "ant": [
+    "pleasant",
+    "soothing"
+   ],
+   "df": 0.6,
+   "conf": [
+    "tortuous"
+   ]
+  },
+  {
+   "id": "tractable",
+   "w": "tractable",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "易驾驭的，温顺的",
+     "en": "easy to manage, control, or persuade",
+     "ex": [
+      {
+       "en": "Unlike his stubborn older brother, the younger boy was tractable and quickly agreed to follow the new rules.",
+       "zh": "与固执的哥哥不同，弟弟很听话，很快就同意遵守新规矩。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "docile",
+    "compliant",
+    "amenable",
+    "manageable"
+   ],
+   "ant": [
+    "intractable",
+    "obstinate"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "truculent",
+   "w": "truculent",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "好斗的，蛮横的",
+     "en": "eager to argue or fight; aggressively defiant",
+     "ex": [
+      {
+       "en": "The truculent negotiator answered every conciliatory offer with a threat to walk away from the table.",
+       "zh": "那位好斗的谈判者对每一次示好都以退出谈判相威胁。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "belligerent",
+    "combative",
+    "pugnacious",
+    "hostile"
+   ],
+   "ant": [
+    "peaceable",
+    "amiable"
+   ],
+   "df": 0.7
+  },
+  {
+   "id": "ubiquitous",
+   "w": "ubiquitous",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "无处不在的",
+     "en": "seeming to be present everywhere at the same time",
+     "ex": [
+      {
+       "en": "Smartphones have become so ubiquitous that a person without one now seems almost a curiosity.",
+       "zh": "智能手机已无处不在，以至于没有手机的人如今几乎成了稀罕事。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "omnipresent",
+    "pervasive",
+    "universal",
+    "widespread"
+   ],
+   "ant": [
+    "rare",
+    "scarce"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "vacillate",
+   "w": "vacillate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.i.",
+     "zh": "犹豫不决，摇摆",
+     "en": "to keep changing one's mind or to waver between choices",
+     "ex": [
+      {
+       "en": "She vacillated for weeks between the two job offers, unable to decide which promised the more rewarding career.",
+       "zh": "她在两份工作邀约之间犹豫了数周，无法决定哪一份前途更有回报。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "waver",
+    "hesitate",
+    "dither",
+    "oscillate"
+   ],
+   "ant": [
+    "resolve",
+    "persist"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "venal",
+   "w": "venal",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "可被收买的，贪赃的",
+     "en": "willing to act dishonestly in return for money",
+     "ex": [
+      {
+       "en": "The venal inspector overlooked every violation committed by those who paid him and cited only those who did not.",
+       "zh": "那名贪赃的检查员对给钱的人的所有违规视而不见，只处罚没给钱的人。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "corrupt",
+    "mercenary",
+    "corruptible",
+    "crooked"
+   ],
+   "ant": [
+    "honest",
+    "incorruptible"
+   ],
+   "df": 0.7,
+   "conf": [
+    "venial"
+   ]
+  },
+  {
+   "id": "venerate",
+   "w": "venerate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "尊敬，崇敬",
+     "en": "to regard someone or something with deep respect",
+     "ex": [
+      {
+       "en": "Villagers venerate the old physician, whose decades of free care are recalled in countless family stories.",
+       "zh": "村民们崇敬这位老医生，无数家庭的故事里都讲述着他数十年的免费诊治。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "revere",
+    "honor",
+    "worship",
+    "esteem"
+   ],
+   "ant": [
+    "despise",
+    "scorn"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "venial",
+   "w": "venial",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "可原谅的，轻微的",
+     "en": "of a minor kind that is easily forgiven",
+     "ex": [
+      {
+       "en": "Missing the deadline by a single hour was a venial lapse that the editor was quite willing to overlook.",
+       "zh": "只晚了一小时交稿是个可以原谅的小失误，编辑完全愿意不予追究。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "forgivable",
+    "excusable",
+    "pardonable",
+    "minor"
+   ],
+   "ant": [
+    "grave",
+    "unforgivable"
+   ],
+   "df": 0.8,
+   "conf": [
+    "venal"
+   ]
+  },
+  {
+   "id": "veracious",
+   "w": "veracious",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "诚实的；真实的",
+     "en": "truthful in speech or accurate in content",
+     "ex": [
+      {
+       "en": "The historian was praised for her veracious account of the war, which neither flattered nor condemned any side.",
+       "zh": "这位历史学家以对战争真实可信的叙述受到赞扬，既不美化也不谴责任何一方。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "truthful",
+    "honest",
+    "accurate",
+    "candid"
+   ],
+   "ant": [
+    "mendacious",
+    "deceitful"
+   ],
+   "df": 0.8,
+   "conf": [
+    "voracious"
+   ]
+  },
+  {
+   "id": "verbose",
+   "w": "verbose",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "冗长的，啰嗦的",
+     "en": "using more words than are needed",
+     "ex": [
+      {
+       "en": "The report was so verbose that its two modest findings were buried beneath hundreds of pages of repetition.",
+       "zh": "这份报告冗长不堪，仅有的两项微小发现被淹没在数百页的重复之中。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "wordy",
+    "prolix",
+    "garrulous",
+    "loquacious"
+   ],
+   "ant": [
+    "concise",
+    "terse"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "vilify",
+   "w": "vilify",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "诽谤，诋毁",
+     "en": "to speak about someone in an abusive and damaging way",
+     "ex": [
+      {
+       "en": "The tabloids vilified the coach after the defeat, ignoring the many successes of his earlier seasons.",
+       "zh": "败北之后，小报对教练大肆诋毁，对他此前几个赛季的诸多成功只字不提。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "defame",
+    "malign",
+    "denigrate",
+    "slander"
+   ],
+   "ant": [
+    "praise",
+    "extol"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "vindicate",
+   "w": "vindicate",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.t.",
+     "zh": "证明……正确；为……昭雪",
+     "en": "to clear someone of blame or show that a claim was right after all",
+     "ex": [
+      {
+       "en": "The discovery of the missing documents vindicated the accountant, who had insisted for years that the error was not his.",
+       "zh": "失踪文件的发现为会计师洗清了嫌疑，多年来他一直坚称这个错误不是他犯的。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "exonerate",
+    "absolve",
+    "justify",
+    "acquit"
+   ],
+   "ant": [
+    "condemn",
+    "accuse"
+   ],
+   "df": 0.6
+  },
+  {
+   "id": "volatile",
+   "w": "volatile",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "易变的，不稳定的",
+     "en": "liable to change quickly and unpredictably",
+     "ex": [
+      {
+       "en": "Commodity prices remain volatile, making it difficult for small farmers to plan their planting or sales.",
+       "zh": "大宗商品价格依然波动剧烈，小农户难以规划种植和销售。"
+      }
+     ]
+    },
+    {
+     "pos": "adj.",
+     "zh": "易挥发的",
+     "en": "evaporating readily at normal temperatures",
+     "ex": [
+      {
+       "en": "Gasoline is a volatile liquid that must be stored well away from any open flame.",
+       "zh": "汽油是易挥发的液体，必须远离任何明火存放。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "unstable",
+    "erratic",
+    "changeable",
+    "fickle"
+   ],
+   "ant": [
+    "stable",
+    "steady"
+   ],
+   "df": 0.4,
+   "scr": true
+  },
+  {
+   "id": "voracious",
+   "w": "voracious",
+   "tags": [
+    "core",
+    "confusable"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "贪婪的；如饥似渴的",
+     "en": "having a huge appetite, especially for food or knowledge",
+     "ex": [
+      {
+       "en": "A voracious reader, he consumed nearly every book in the village library before he turned twelve.",
+       "zh": "他酷爱读书，十二岁之前几乎读遍了村图书馆的每一本书。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "ravenous",
+    "insatiable",
+    "greedy",
+    "gluttonous"
+   ],
+   "ant": [
+    "satiated",
+    "abstemious"
+   ],
+   "df": 0.6,
+   "conf": [
+    "veracious"
+   ]
+  },
+  {
+   "id": "wane",
+   "w": "wane",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "v.i.",
+     "zh": "衰落，减弱",
+     "en": "to gradually become weaker, smaller, or less intense",
+     "ex": [
+      {
+       "en": "Public enthusiasm for the project began to wane once the true cost became known.",
+       "zh": "一旦真实成本为人所知，公众对这个项目的热情便开始减退。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "dwindle",
+    "ebb",
+    "decline",
+    "subside"
+   ],
+   "ant": [
+    "wax",
+    "grow"
+   ],
+   "df": 0.5
+  },
+  {
+   "id": "zealous",
+   "w": "zealous",
+   "tags": [
+    "core"
+   ],
+   "senses": [
+    {
+     "pos": "adj.",
+     "zh": "热忱的，狂热的",
+     "en": "full of energy and strong enthusiasm for a cause or goal",
+     "ex": [
+      {
+       "en": "The zealous young prosecutor pursued every lead, often working through the night to build her case.",
+       "zh": "这位充满热忱的年轻检察官追查每一条线索，常常通宵工作来完善案件。"
+      }
+     ]
+    }
+   ],
+   "syn": [
+    "ardent",
+    "fervent",
+    "passionate",
+    "fanatical"
+   ],
+   "ant": [
+    "apathetic",
+    "indifferent"
+   ],
+   "df": 0.5
+  }
+ ],
+ "confusables": [
+  [
+   "aesthetic",
+   "ascetic"
+  ],
+  [
+   "allusion",
+   "illusion"
+  ],
+  [
+   "credible",
+   "credulous"
+  ],
+  [
+   "discreet",
+   "discrete"
+  ],
+  [
+   "elicit",
+   "illicit"
+  ],
+  [
+   "eminent",
+   "imminent"
+  ],
+  [
+   "flaunt",
+   "flout"
+  ],
+  [
+   "ingenious",
+   "ingenuous"
+  ],
+  [
+   "militate",
+   "mitigate"
+  ],
+  [
+   "perspicacious",
+   "perspicuous"
+  ],
+  [
+   "precipitate",
+   "precipitous"
+  ],
+  [
+   "prescribe",
+   "proscribe"
+  ],
+  [
+   "prodigal",
+   "prodigy"
+  ],
+  [
+   "tortuous",
+   "torturous"
+  ],
+  [
+   "venal",
+   "venial"
+  ],
+  [
+   "veracious",
+   "voracious"
+  ]
+ ]
+}
