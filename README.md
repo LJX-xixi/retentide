@@ -48,8 +48,9 @@ search, filters and an overview grid for skimming.
 Merriam-Webster definitions and audio are available with your free key, looked up only when you ask and never
 saved to your word list
 ([policy](docs/merriam-webster.md)). Progress stays in your browser unless you connect your own Supabase
-project to sync between devices. You can back up and restore everything as JSON. The interface is in Chinese
-or English.
+project to sync between devices. JSON backups include the active word list, question set and learning records.
+Restoring a backup restores its study material and merges progress. Imported lists and question sets stay
+local; use a backup to carry them to another device. The interface is in Chinese or English.
 
 ## Running it
 
@@ -100,9 +101,9 @@ be checked on real use. They are open questions, not claims:
 ## Limitations
 
 - Without Supabase, progress lives in browser storage (a few MB), so export a backup now and then.
-- The AI client has been tested against a simulated OpenAI-style streaming endpoint, not yet against a real
-  provider. Whichever provider you use must accept requests from a browser (CORS). Keys entered in the browser
-  are visible to anyone using that browser profile.
+- AI providers must support OpenAI-compatible Chat Completions, streaming, JSON and tool calls, and allow
+  browser requests (CORS). Choose your own provider and model in Settings. Keys entered in the browser are
+  visible to anyone using that browser profile.
 - FSRS uses its default parameters; there is no per-user parameter fitting yet.
 
 ## License

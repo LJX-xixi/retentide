@@ -1,6 +1,6 @@
 # Word list and question set formats
 
-Import either in **Settings → 词表 / Word list**. Imported data stays in your browser.
+Import either in **Settings → 词表 / Word list**. Imported data stays in your browser. Version 3 progress backups include the active word list and question set so they can be restored on another device. Restoring replaces that device's active study material; progress is merged. Supabase sync alone does not transfer imported material.
 
 ## Word list — CSV
 

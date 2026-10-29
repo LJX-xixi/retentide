@@ -20,6 +20,8 @@ Settings → Supabase: paste **Project URL** and the **anon public key** (Projec
 enter your email and click the sign-in link you receive. Progress made in this browser before signing in
 merges into the account (newest wins per word) and uploads; the anonymous copy is then removed. Never use the `service_role` key in the app.
 
+Imported word lists and question sets are device-local. Use Settings → Export progress / Import progress to carry both the material and records to another device. Version 3 backups include both; older backups only restore records.
+
 How sync behaves:
 - Each device writes to its browser first and uploads in batches; a stale tab cannot overwrite newer cards
   (cards merge one by one, newest wins; writes are conditional on the row revision).
@@ -53,7 +55,7 @@ select kind, count(*), round(avg(correct::int), 3) as accuracy
 from reviews where scheduled and stability_before is not null group by kind order by 2 desc;
 
 -- calibration: predicted vs observed recall
-select predicted_bucket, sum(n) as n, round(avg(predicted), 2) as predicted, round(avg(observed), 2) as observed
+select predicted_bucket, sum(n) as n, round(sum(predicted * n) / sum(n), 2) as predicted, round(sum(observed * n) / sum(n), 2) as observed
 from retention_v group by predicted_bucket order by predicted_bucket;
 
 -- what keeps going wrong

@@ -57,6 +57,7 @@ export function createStore(client) {
   }
   async function write(path, next, update = false) {
     if (!plain(next)) throw Object.assign(new Error('document must be an object'), { code: 'invalid_argument' });
+    let committed;
     for (let attempt = 0; attempt < 6; attempt++) {
       const row = await read(path);
       if (update && !row) throw Object.assign(new Error('missing document'), { code: 'invalid_argument' });
@@ -65,19 +66,19 @@ export function createStore(client) {
         const { data, error } = await client.from('documents').update({ data: value, revision: row.revision + 1, updated_at: new Date().toISOString() })
           .eq('path', path).eq('revision', row.revision).select('revision');
         if (error) throw Object.assign(new Error(error.message), { code: 'unavailable' });
-        if (data?.length) break;
+        if (data?.length) { committed = value; break; }
       } else {
         const { error } = await client.from('documents').insert({ path, collection: parentOf(path), data: value });
-        if (!error) break;
+        if (!error) { committed = value; break; }
         if (error.code !== '23505') throw Object.assign(new Error(error.message), { code: 'unavailable' }); // 23505: another tab created it first
       }
       if (attempt === 5) throw Object.assign(new Error('write conflict'), { code: 'resource_exhausted' });
     }
     if (path.startsWith('me/logs/s/')) {
-      const rows = reviewRows(path.split('/').pop(), next.items);
+      const rows = reviewRows(path.split('/').pop(), committed.items);
       if (rows.length) {
         const { error } = await client.from('reviews').upsert(rows, { onConflict: 'user_id,event_id', ignoreDuplicates: true });
-        if (error) console.warn('reviews sync failed', error.message);
+        if (error) throw Object.assign(new Error(error.message), { code: 'unavailable' });
       }
     }
   }
@@ -98,7 +99,7 @@ export function createStore(client) {
     get: async () => {
       const rows = [];
       for (let from = 0; ; from += 1000) {
-        const { data, error } = await client.from('documents').select('path,data').eq('collection', path).range(from, from + 999);
+        const { data, error } = await client.from('documents').select('path,data').eq('collection', path).order('path').range(from, from + 999);
         if (error) throw Object.assign(new Error(error.message), { code: 'unavailable' });
         rows.push(...data);
         if (data.length < 1000) break;

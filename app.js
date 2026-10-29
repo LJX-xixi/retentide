@@ -346,16 +346,17 @@ async function pull() {
   }
 }
 
-let pushing = false, pushAgain = false;
+let pushing = false, pushAgain = false, retryDelay = 1000;
 async function push() {
   if (!S.db || S.readOnly) return;
   if (pushing) { pushAgain = true; return; }
+  clearTimeout(pushTimer);
   pushing = true;
   try {
     const byBucket = {};
     for (const id of Object.keys(S.L.dirty)) if (S.L.cards[id]) (byBucket[bucketOf(id)] ||= []).push(id);
     const total = Object.keys(S.L.dirty).length + Object.keys(S.L.dirtyS).length + (S.L.dirtyP ? 1 : 0) + Object.keys(S.L.dirtyC).length + Object.keys(S.L.dirtyN).length + Object.keys(S.L.partsQ || {}).length + (S.L.dirtyA ? 1 : 0) + (S.L.dirtyL ? 1 : 0) + Object.keys(S.L.dirtyU || {}).length + (S.L.dirtyDr ? 1 : 0);
-    if (!total) { setSync('ok'); return; }
+    if (!total) { retryDelay = 1000; setSync('ok'); return; }
     setSync('syncing');
     for (const [b, ids] of Object.entries(byBucket)) {
       const c = {};
@@ -406,9 +407,16 @@ async function push() {
       if (S.L.notes[id]?.u === stamp) delete S.L.dirtyN[id];
     }
     saveLocal();
+    retryDelay = 1000;
     setSync('ok');
   } catch (e) {
     handleSyncError(e);
+    // Keep dirty session logs until both the document and its analysis rows have been acknowledged.
+    if (S.db && !S.readOnly && navigator.onLine !== false) {
+      clearTimeout(pushTimer);
+      pushTimer = setTimeout(push, retryDelay);
+      retryDelay = Math.min(retryDelay * 2, 60000);
+    }
   } finally {
     pushing = false;
     if (pushAgain) { pushAgain = false; setTimeout(push, 500); }
@@ -1123,7 +1131,7 @@ const MW_PERSIST = false;      // no stored MW responses
 const MW_TO_AI = false;        // MW text is shown to the learner only
 // Merriam-Webster's brand guidelines require their logo (unmodified, ® visible, 50/100/125 px) wherever the
 // API's content appears. It is loaded from dictionaryapi.com rather than redistributed in this repository.
-const MW_LOGO = (url) => `<a class="mw-logo" href="${url}" target="_blank" rel="noopener" title="Merriam-Webster"><img class="mw-logo-light" src="https://dictionaryapi.com/images/info/branding-guidelines/MWLogo_LightBG_120x120_2x.png" width="50" height="50" alt="Merriam-Webster"><img class="mw-logo-dark" src="https://dictionaryapi.com/images/info/branding-guidelines/MWLogo_DarkBG_120x120_2x.png" width="50" height="50" alt="Merriam-Webster"></a>`;
+const MW_LOGO = (url) => `<a class="mw-logo" href="${url}" target="_blank" rel="noopener" title="Merriam-Webster"><img class="mw-logo-light" src="https://dictionaryapi.com/images/info/branding-guidelines/MWLogo_LightBG_120x120_2x.png" width="50" height="50" alt="Merriam-Webster"><img class="mw-logo-dark" src="https://dictionaryapi.com/images/info/branding-guidelines/MWLogo_DarkBG_120x120_2x.png" width="50" height="50" alt="Merriam-Webster"><span class="mw-registration" aria-label="registered trademark">®</span></a>`;
 const mwCredit = (word) => { const url = `https://www.merriam-webster.com/dictionary/${encodeURIComponent(word)}`; return `<div class="small muted mw-credit">${MW_LOGO(url)}<span>${L('释义来自', 'From')} <a href="${url}" target="_blank" rel="noopener">Merriam-Webster's Collegiate® Dictionary</a></span></div>`; };
 const MW_DENIED = new Set(['server_not_connected', 'selection_required', 'needs_reauth', 'not_in_manifest', 'approval_required', 'blocked_by_policy', 'not_granted', 'capability_disabled', 'capability_removed', 'server_not_found', 'consent_required']);
 S.mw = new Map();            // id -> MW doc, loaded on demand
@@ -1726,7 +1734,7 @@ function renderHome() {
     <div class="today-head"><b>${L('欢迎', 'Welcome')}</b></div>
     <ul class="small" style="margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px">
       <li>${L('先学一个词，系统会出题检验；之后什么时候复习由 FSRS 安排，<b>不用自己评“认识/模糊”</b>，对错和用时自动决定。', 'Learn a word and the app quizzes you on it; FSRS then schedules the reviews. <b>You never rate yourself</b>: whether you got it right, and how fast, decides.')}</li>
-      <li>${L(`不需要账号，进度存在这台设备的浏览器里。自带 ${S.words.length} 个示例词，也可以在设置里导入自己的词表。`, `No account needed: progress lives in this browser. It comes with ${S.words.length} sample words, and you can import your own list in Settings.`)}</li>
+      <li>${L(`不需要账号，进度存在这台设备的浏览器里。当前词表有 ${S.words.length} 个词，也可以在设置里导入其他词表。`, `No account needed: progress lives in this browser. Your current list has ${S.words.length} words; you can import another list in Settings.`)}</li>
       <li>${L('AI 讲解、Merriam-Webster 查词、多设备同步都是可选的，在设置里填自己的 key 就能打开。', 'AI explanations, Merriam-Webster lookups and multi-device sync are optional; add your own keys in Settings to turn them on.')}</li>
     </ul>
     <div class="row"><button class="btn primary" id="welcome-go">${L('开始', 'Start')}</button><button class="btn" id="welcome-set">${L('先去设置', 'Settings first')}</button></div>
@@ -2973,7 +2981,7 @@ function renderSettings() {
     <h2>${L('同步与备份', 'Sync and backup')}</h2>
     <div class="muted small">${esc(syncLine)}</div>
     <div class="row"><button class="btn sm" id="syncnow" ${S.db ? '' : 'disabled'}>${L('立即同步', 'Sync now')}</button><button class="btn sm" id="export">${L('导出进度', 'Export progress')}</button><button class="btn sm" id="exportai">${L('导出给 AI 分析', 'Export for AI analysis')}</button><label class="btn sm" for="importf" style="display:inline-flex;align-items:center">${L('导入进度', 'Import progress')}</label><input id="importf" type="file" accept="application/json,.json" hidden></div>
-    <div class="muted small">${L('进度本来就自动同步：答题后几秒、切走或关掉页面时上传，重新打开或切回来时拉取另一台设备的改动。“立即同步”是马上上传再拉取一次，换设备前或右上角显示“待上传”时点一下。导出是一份完整备份（进度、自定义词、笔记、对话、查词记录），导入只会合并、每一项以较新的为准，不会覆盖掉这里已有的东西。', 'Progress syncs automatically: it uploads a few seconds after you answer and when you leave or close the page, and pulls other devices’ changes when you reopen or come back. “Sync now” uploads and pulls right away; use it before switching devices or when the top corner shows “to upload”. Export makes a full backup (progress, your words, notes, chats, lookups); import only merges, keeping the newer version of each item, so nothing here is overwritten.')}</div>
+    <div class="muted small">${L('进度本来就自动同步：答题后几秒、切走或关掉页面时上传，重新打开或切回来时拉取另一台设备的改动。“立即同步”是马上上传再拉取一次，换设备前或右上角显示“待上传”时点一下。备份包含当前词表、题集和学习记录。恢复时词表与题集恢复到备份版本；进度、笔记和对话按较新记录合并。旧版备份仍可导入，但不含词表和题集。', 'Progress syncs automatically: it uploads a few seconds after you answer and when you leave or close the page, and pulls other devices’ changes when you reopen or come back. “Sync now” uploads and pulls right away; use it before switching devices or when the top corner shows “to upload”. Backups include the active word list, question set and study records. Restore replaces the word list and question set with the backed-up versions; progress, notes and chats merge by the newer record. Older backups still work but do not contain word lists or question sets.')}</div>
   </section>
   <section class="sec">
     <h2>${L('评分规则', 'How grading works')}</h2>
@@ -3066,7 +3074,7 @@ function exportForAI() {
   setTimeout(() => URL.revokeObjectURL(a.href), 60000);
 }
 async function backupData() {
-  const d = { app: APP_ID, v: 2, at: new Date().toISOString(), cards: S.L.cards, prefs: S.L.prefs, custom: S.L.custom, sessions: { ...S.L.sessions },
+  const d = { app: APP_ID, v: 3, at: new Date().toISOString(), deck: S.data, questionSet: JSON.parse(localStorage.getItem(DRILLS_KEY) || 'null'), cards: S.L.cards, prefs: S.L.prefs, custom: S.L.custom, sessions: { ...S.L.sessions },
     notes: S.L.notes, lookups: S.L.lookups, asked: S.L.asked, chats: { ...S.L.chats }, parts: {}, diag: S.L.diag, drill: S.L.drill };
   if (S.db) {
     try {
@@ -3103,9 +3111,31 @@ async function importProgress(e) {
   let d;
   try { d = JSON.parse(await f.text()); if (d.app !== APP_ID || !d.cards) throw new Error('bad'); }
   catch (err) { toast(L('文件格式不对：请选择从这里导出的 JSON', 'Wrong file format: choose a JSON exported from this app')); return; }
+  try { restoreBackupMaterials(d); }
+  catch (err) { toast(L('无法恢复词表或题集：检查备份格式和浏览器存储空间', 'Could not restore the word list or question set: check the backup and browser storage space')); return; }
   const { n, nc } = mergeIntoLocal(d);
   indexWords(S.data); saveLocal(true); push();
   toast(L(`导入完成：${n} 个词的进度${nc ? `、${nc} 个对话` : ''}更新了`, `Import done: progress updated for ${n} words${nc ? ` and ${nc} chats` : ''}`)); render();
+}
+// Version 3 carries the active study material as well as progress. Older backups leave it unchanged.
+function restoreBackupMaterials(d) {
+  const deck = d.deck === undefined ? null : normalizeDeck(d.deck);
+  if (deck && !deck.words.length) throw new Error('invalid_deck');
+  const hasQuestions = Object.hasOwn(d, 'questionSet');
+  const questions = d.questionSet;
+  if (hasQuestions && questions !== null && (!Array.isArray(questions?.items) || !questions.items.length || !questions.items.every(x => x.id && x.type && x.text))) throw new Error('invalid_questions');
+  const changes = [];
+  if (deck) changes.push([DECK_KEY, JSON.stringify(deck)]);
+  if (hasQuestions) changes.push([DRILLS_KEY, questions === null ? null : JSON.stringify(questions)]);
+  const previous = changes.map(([key]) => [key, localStorage.getItem(key)]);
+  try {
+    for (const [key, value] of changes) { if (value === null) localStorage.removeItem(key); else localStorage.setItem(key, value); }
+  } catch (err) {
+    for (const [key, value] of previous) { if (value === null) localStorage.removeItem(key); else localStorage.setItem(key, value); }
+    throw err;
+  }
+  if (deck) { S.data = deck; S.forms = deck.forms || {}; }
+  if (hasQuestions) S.drills = null;
 }
 // Item-by-item merge, newest wins; everything taken in is queued for upload. Used by backup import and when
 // progress made before signing in moves into the account (runtime/index.js leaves it in ovd-pending-merge).
@@ -3237,4 +3267,5 @@ function markStuck() {
 }
 window.addEventListener('scroll', markStuck, { passive: true });
 // all scripts are deferred: start once chat.js and practice.js have run too
-if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+// During deferred scripts readyState is already "interactive", but practice.js has not run yet.
+if (document.readyState !== 'complete') document.addEventListener('DOMContentLoaded', boot, { once: true }); else boot();

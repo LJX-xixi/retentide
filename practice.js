@@ -290,7 +290,7 @@ function renderDrill() {
   const sm = drillSummary(), st = drillStats();
   const next = st.next;
   const nextSt = next != null ? secState(sm.bySec.get(next)) : null;
-  const allSecs = Array.from({ length: 100 }, (_, i) => i + 1);
+  const allSecs = st.secs;
   const cell = (sec) => {
     const items = sm.bySec.get(sec);
     if (!items) return `<div class="dcell gone" title="Section ${sec}${L('：原文档这一套没法可靠解析，未导入', ': this set couldn\'t be parsed reliably from the source and wasn\'t imported')}">${sec}</div>`;
